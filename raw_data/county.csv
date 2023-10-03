@@ -1,0 +1,3229 @@
+Note: Several counties contain special characters that can only be rendered correctly by following the steps below for opening the csv in Excel or Google Sheets.
+Excel on Mac and Google Sheets : please refer to this official article: Import data from a CSV HTML or text file.
+https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Foffice%2Fimport-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6%3Fui%3Den-us%26rs%3Den-us%26ad%3Dus&data=05%7C01%7Cshamaya.lurae.whitby%40emory.edu%7C0fd288bc84be41fae33c08dac34a0c82%7Ce004fb9cb0a4424fbcd0322606d5df38%7C0%7C0%7C638037020071507443%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=fbuH9B3RH8A5Ourun52x3TKT9ua%2B5DFN886z9ZgH4nw%3D&reserved=0
+Excel on Mircosoft: please refer to this official article: Import data from a CSV HTML or text file.
+https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fanswers.microsoft.com%2Fen-us%2Fmsoffice%2Fforum%2Fall%2Fhow-to-open-utf-8-csv-file-in-excel-without-mis%2F1eb15700-d235-441e-8b99-db10fafff3c2&data=05%7C01%7Cshamaya.lurae.whitby%40emory.edu%7C0fd288bc84be41fae33c08dac34a0c82%7Ce004fb9cb0a4424fbcd0322606d5df38%7C0%7C0%7C638037020071507443%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=sv24XsWqYIGnrQGkEiQCghebOTHFKFF2RU%2BuYFy0LE8%3D&reserved=0
+
+county,state,"Rates of Persons Living with HIV, 2021"
+"Autauga","Alabama",218
+"Baldwin","Alabama",174
+"Barbour","Alabama",514
+"Bibb","Alabama",269
+"Blount","Alabama",81
+"Bullock","Alabama",616
+"Butler","Alabama",377
+"Calhoun","Alabama",255
+"Chambers","Alabama",360
+"Cherokee","Alabama",133
+"Chilton","Alabama",169
+"Choctaw","Alabama",279
+"Clarke","Alabama",202
+"Clay","Alabama",173
+"Cleburne","Alabama",87
+"Coffee","Alabama",180
+"Colbert","Alabama",137
+"Conecuh","Alabama",299
+"Coosa","Alabama",205
+"Covington","Alabama",164
+"Crenshaw","Alabama",246
+"Cullman","Alabama",109
+"Dale","Alabama",334
+"Dallas","Alabama",415
+"DeKalb","Alabama",110
+"Elmore","Alabama",280
+"Escambia","Alabama",230
+"Etowah","Alabama",222
+"Fayette","Alabama",95
+"Franklin","Alabama",87
+"Geneva","Alabama",172
+"Greene","Alabama",480
+"Hale","Alabama",531
+"Henry","Alabama",287
+"Houston","Alabama",418
+"Jackson","Alabama",102
+"Jefferson","Alabama",679
+"Lamar","Alabama",206
+"Lauderdale","Alabama",123
+"Lawrence","Alabama",89
+"Lee","Alabama",219
+"Limestone","Alabama",145
+"Lowndes","Alabama",549
+"Macon","Alabama",633
+"Madison","Alabama",258
+"Marengo","Alabama",194
+"Marion","Alabama",156
+"Marshall","Alabama",158
+"Mobile","Alabama",563
+"Monroe","Alabama",208
+"Montgomery","Alabama",827
+"Morgan","Alabama",149
+"Perry","Alabama",419
+"Pickens","Alabama",344
+"Pike","Alabama",405
+"Randolph","Alabama",102
+"Russell","Alabama",420
+"Shelby","Alabama",181
+"St. Clair","Alabama",168
+"Sumter","Alabama",355
+"Talladega","Alabama",258
+"Tallapoosa","Alabama",216
+"Tuscaloosa","Alabama",294
+"Walker","Alabama",153
+"Washington","Alabama",116
+"Wilcox","Alabama",240
+"Winston","Alabama",59
+"Aleutians East","Alaska",-4
+"Aleutians West","Alaska",-4
+"Anchorage","Alaska",-4
+"Bethel","Alaska",-4
+"Bristol Bay","Alaska",-4
+"Chugach","Alaska",-4
+"Copper River","Alaska",-4
+"Denali","Alaska",-4
+"Dillingham","Alaska",-4
+"Fairbanks North Star","Alaska",-4
+"Haines","Alaska",-4
+"Hoonah-Angoon","Alaska",-4
+"Juneau","Alaska",-4
+"Kenai Peninsula","Alaska",-4
+"Ketchikan Gateway","Alaska",-4
+"Kodiak Island","Alaska",-4
+"Kusilvak","Alaska",-4
+"Lake and Peninsula","Alaska",-4
+"Matanuska-Susitna","Alaska",-4
+"Nome","Alaska",-4
+"North Slope","Alaska",-4
+"Northwest Arctic","Alaska",-4
+"Petersburg","Alaska",-4
+"Prince of Wales-Hyder","Alaska",-4
+"Sitka","Alaska",-4
+"Skagway","Alaska",-4
+"Southeast Fairbanks","Alaska",-4
+"Wrangell","Alaska",-4
+"Yakutat","Alaska",-4
+"Yukon-Koyukuk","Alaska",-4
+"Apache","Arizona",231
+"Cochise","Arizona",200
+"Coconino","Arizona",143
+"Gila","Arizona",121
+"Graham","Arizona",97
+"Greenlee","Arizona",-1
+"La Paz","Arizona",-1
+"Maricopa","Arizona",329
+"Mohave","Arizona",153
+"Navajo","Arizona",146
+"Pima","Arizona",311
+"Pinal","Arizona",293
+"Santa Cruz","Arizona",191
+"Yavapai","Arizona",147
+"Yuma","Arizona",185
+"Arkansas","Arkansas",280
+"Ashley","Arkansas",146
+"Baxter","Arkansas",122
+"Benton","Arkansas",130
+"Boone","Arkansas",88
+"Bradley","Arkansas",105
+"Calhoun","Arkansas",121
+"Carroll","Arkansas",253
+"Chicot","Arkansas",365
+"Clark","Arkansas",142
+"Clay","Arkansas",107
+"Cleburne","Arkansas",110
+"Cleveland","Arkansas",125
+"Columbia","Arkansas",203
+"Conway","Arkansas",160
+"Craighead","Arkansas",201
+"Crawford","Arkansas",107
+"Crittenden","Arkansas",595
+"Cross","Arkansas",252
+"Dallas","Arkansas",-1
+"Desha","Arkansas",230
+"Drew","Arkansas",173
+"Faulkner","Arkansas",194
+"Franklin","Arkansas",62
+"Fulton","Arkansas",106
+"Garland","Arkansas",251
+"Grant","Arkansas",156
+"Greene","Arkansas",102
+"Hempstead","Arkansas",199
+"Hot Spring","Arkansas",262
+"Howard","Arkansas",184
+"Independence","Arkansas",175
+"Izard","Arkansas",140
+"Jackson","Arkansas",237
+"Jefferson","Arkansas",519
+"Johnson","Arkansas",70
+"Lafayette","Arkansas",112
+"Lawrence","Arkansas",95
+"Lee","Arkansas",507
+"Lincoln","Arkansas",336
+"Little River","Arkansas",209
+"Logan","Arkansas",78
+"Lonoke","Arkansas",101
+"Madison","Arkansas",134
+"Marion","Arkansas",108
+"Miller","Arkansas",360
+"Mississippi","Arkansas",251
+"Monroe","Arkansas",340
+"Montgomery","Arkansas",67
+"Nevada","Arkansas",145
+"Newton","Arkansas",80
+"Ouachita","Arkansas",281
+"Perry","Arkansas",130
+"Phillips","Arkansas",332
+"Pike","Arkansas",82
+"Poinsett","Arkansas",96
+"Polk","Arkansas",92
+"Pope","Arkansas",110
+"Prairie","Arkansas",173
+"Pulaski","Arkansas",603
+"Randolph","Arkansas",103
+"Saline","Arkansas",132
+"Scott","Arkansas",-1
+"Searcy","Arkansas",74
+"Sebastian","Arkansas",199
+"Sevier","Arkansas",151
+"Sharp","Arkansas",80
+"St. Francis","Arkansas",431
+"Stone","Arkansas",111
+"Union","Arkansas",342
+"Van Buren","Arkansas",58
+"Washington","Arkansas",179
+"White","Arkansas",134
+"Woodruff","Arkansas",252
+"Yell","Arkansas",167
+"Alameda","California",424
+"Alpine","California",-1
+"Amador","California",483
+"Butte","California",134
+"Calaveras","California",126
+"Colusa","California",112
+"Contra Costa","California",278
+"Del Norte","California",183
+"El Dorado","California",136
+"Fresno","California",271
+"Glenn","California",81
+"Humboldt","California",199
+"Imperial","California",275
+"Inyo","California",149
+"Kern","California",289
+"Kings","California",147
+"Lake","California",243
+"Lassen","California",97
+"Los Angeles","California",602
+"Madera","California",184
+"Marin","California",341
+"Mariposa","California",139
+"Mendocino","California",224
+"Merced","California",175
+"Modoc","California",-1
+"Mono","California",60
+"Monterey","California",213
+"Napa","California",242
+"Nevada","California",140
+"Orange","California",268
+"Placer","California",115
+"Plumas","California",131
+"Riverside","California",496
+"Sacramento","California",350
+"San Benito","California",110
+"San Bernardino","California",282
+"San Diego","California",485
+"San Francisco","California",1590
+"San Joaquin","California",235
+"San Luis Obispo","California",158
+"San Mateo","California",261
+"Santa Barbara","California",163
+"Santa Clara","California",219
+"Santa Cruz","California",220
+"Shasta","California",133
+"Sierra","California",-1
+"Siskiyou","California",156
+"Solano","California",349
+"Sonoma","California",333
+"Stanislaus","California",190
+"Sutter","California",152
+"Tehama","California",83
+"Trinity","California",92
+"Tulare","California",143
+"Tuolumne","California",114
+"Ventura","California",168
+"Yolo","California",170
+"Yuba","California",154
+"Adams","Colorado",290
+"Alamosa","Colorado",197
+"Arapahoe","Colorado",297
+"Archuleta","Colorado",132
+"Baca","Colorado",-1
+"Bent","Colorado",156
+"Boulder","Colorado",166
+"Broomfield","Colorado",19
+"Chaffee","Colorado",100
+"Cheyenne","Colorado",-1
+"Clear Creek","Colorado",234
+"Conejos","Colorado",-1
+"Costilla","Colorado",222
+"Crowley","Colorado",396
+"Custer","Colorado",-1
+"Delta","Colorado",106
+"Denver","Colorado",871
+"Dolores","Colorado",-1
+"Douglas","Colorado",88
+"Eagle","Colorado",154
+"El Paso","Colorado",168
+"Elbert","Colorado",103
+"Fremont","Colorado",329
+"Garfield","Colorado",154
+"Gilpin","Colorado",169
+"Grand","Colorado",155
+"Gunnison","Colorado",59
+"Hinsdale","Colorado",-1
+"Huerfano","Colorado",194
+"Jackson","Colorado",-1
+"Jefferson","Colorado",181
+"Kiowa","Colorado",0
+"Kit Carson","Colorado",105
+"La Plata","Colorado",132
+"Lake","Colorado",111
+"Larimer","Colorado",100
+"Las Animas","Colorado",187
+"Lincoln","Colorado",266
+"Logan","Colorado",160
+"Mesa","Colorado",136
+"Mineral","Colorado",-1
+"Moffat","Colorado",101
+"Montezuma","Colorado",121
+"Montrose","Colorado",84
+"Morgan","Colorado",102
+"Otero","Colorado",103
+"Ouray","Colorado",-1
+"Park","Colorado",157
+"Phillips","Colorado",133
+"Pitkin","Colorado",148
+"Prowers","Colorado",102
+"Pueblo","Colorado",179
+"Rio Blanco","Colorado",-1
+"Rio Grande","Colorado",134
+"Routt","Colorado",127
+"Saguache","Colorado",230
+"San Juan","Colorado",-1
+"San Miguel","Colorado",70
+"Sedgwick","Colorado",-1
+"Summit","Colorado",160
+"Teller","Colorado",86
+"Washington","Colorado",-1
+"Weld","Colorado",88
+"Yuma","Colorado",125
+"Fairfield","Connecticut",329
+"Hartford","Connecticut",399
+"Litchfield","Connecticut",164
+"Middlesex","Connecticut",211
+"New Haven","Connecticut",449
+"New London","Connecticut",246
+"Tolland","Connecticut",122
+"Windham","Connecticut",188
+"Kent","Delaware",322
+"New Castle","Delaware",444
+"Sussex","Delaware",350
+"Alachua","Florida",425
+"Baker","Florida",544
+"Bay","Florida",334
+"Bradford","Florida",305
+"Brevard","Florida",327
+"Broward","Florida",1236
+"Calhoun","Florida",229
+"Charlotte","Florida",194
+"Citrus","Florida",171
+"Clay","Florida",231
+"Collier","Florida",294
+"Columbia","Florida",529
+"DeSoto","Florida",467
+"Dixie","Florida",289
+"Duval","Florida",777
+"Escambia","Florida",471
+"Flagler","Florida",244
+"Franklin","Florida",151
+"Gadsden","Florida",711
+"Gilchrist","Florida",185
+"Glades","Florida",785
+"Gulf","Florida",208
+"Hamilton","Florida",1183
+"Hardee","Florida",298
+"Hendry","Florida",477
+"Hernando","Florida",260
+"Highlands","Florida",307
+"Hillsborough","Florida",598
+"Holmes","Florida",130
+"Indian River","Florida",284
+"Jackson","Florida",913
+"Jefferson","Florida",701
+"Lafayette","Florida",205
+"Lake","Florida",313
+"Lee","Florida",337
+"Leon","Florida",519
+"Levy","Florida",263
+"Liberty","Florida",157
+"Madison","Florida",675
+"Manatee","Florida",329
+"Marion","Florida",335
+"Martin","Florida",265
+"Miami-Dade","Florida",1190
+"Monroe","Florida",728
+"Nassau","Florida",177
+"Okaloosa","Florida",260
+"Okeechobee","Florida",317
+"Orange","Florida",776
+"Osceola","Florida",467
+"Palm Beach","Florida",628
+"Pasco","Florida",264
+"Pinellas","Florida",579
+"Polk","Florida",437
+"Putnam","Florida",403
+"Santa Rosa","Florida",156
+"Sarasota","Florida",264
+"Seminole","Florida",332
+"St. Johns","Florida",155
+"St. Lucie","Florida",597
+"Sumter","Florida",219
+"Suwannee","Florida",491
+"Taylor","Florida",656
+"Union","Florida",1684
+"Volusia","Florida",388
+"Wakulla","Florida",363
+"Walton","Florida",152
+"Washington","Florida",680
+"Appling","Georgia",242
+"Atkinson","Georgia",321
+"Bacon","Georgia",494
+"Baker","Georgia",287
+"Baldwin","Georgia",348
+"Banks","Georgia",164
+"Barrow","Georgia",194
+"Bartow","Georgia",249
+"Ben Hill","Georgia",345
+"Berrien","Georgia",350
+"Bibb","Georgia",1008
+"Bleckley","Georgia",413
+"Brantley","Georgia",145
+"Brooks","Georgia",456
+"Bryan","Georgia",180
+"Bulloch","Georgia",376
+"Burke","Georgia",513
+"Butts","Georgia",608
+"Calhoun","Georgia",653
+"Camden","Georgia",225
+"Candler","Georgia",309
+"Carroll","Georgia",274
+"Catoosa","Georgia",84
+"Charlton","Georgia",523
+"Chatham","Georgia",739
+"Chattahoochee","Georgia",149
+"Chattooga","Georgia",271
+"Cherokee","Georgia",195
+"Clarke","Georgia",419
+"Clay","Georgia",445
+"Clayton","Georgia",1049
+"Clinch","Georgia",452
+"Cobb","Georgia",565
+"Coffee","Georgia",335
+"Colquitt","Georgia",536
+"Columbia","Georgia",194
+"Cook","Georgia",521
+"Coweta","Georgia",242
+"Crawford","Georgia",191
+"Crisp","Georgia",788
+"Dade","Georgia",113
+"Dawson","Georgia",168
+"Decatur","Georgia",629
+"DeKalb","Georgia",1443
+"Dodge","Georgia",461
+"Dooly","Georgia",587
+"Dougherty","Georgia",1115
+"Douglas","Georgia",595
+"Early","Georgia",306
+"Echols","Georgia",-1
+"Effingham","Georgia",164
+"Elbert","Georgia",236
+"Emanuel","Georgia",327
+"Evans","Georgia",510
+"Fannin","Georgia",195
+"Fayette","Georgia",237
+"Floyd","Georgia",299
+"Forsyth","Georgia",91
+"Franklin","Georgia",274
+"Fulton","Georgia",1802
+"Gilmer","Georgia",201
+"Glascock","Georgia",279
+"Glynn","Georgia",486
+"Gordon","Georgia",168
+"Grady","Georgia",325
+"Greene","Georgia",211
+"Gwinnett","Georgia",423
+"Habersham","Georgia",126
+"Hall","Georgia",191
+"Hancock","Georgia",515
+"Haralson","Georgia",130
+"Harris","Georgia",155
+"Hart","Georgia",150
+"Heard","Georgia",174
+"Henry","Georgia",527
+"Houston","Georgia",333
+"Irwin","Georgia",967
+"Jackson","Georgia",159
+"Jasper","Georgia",163
+"Jeff Davis","Georgia",246
+"Jefferson","Georgia",370
+"Jenkins","Georgia",391
+"Johnson","Georgia",226
+"Jones","Georgia",120
+"Lamar","Georgia",283
+"Lanier","Georgia",218
+"Laurens","Georgia",468
+"Lee","Georgia",222
+"Liberty","Georgia",514
+"Lincoln","Georgia",298
+"Long","Georgia",167
+"Lowndes","Georgia",681
+"Lumpkin","Georgia",93
+"Macon","Georgia",575
+"Madison","Georgia",163
+"Marion","Georgia",266
+"McDuffie","Georgia",291
+"McIntosh","Georgia",523
+"Meriwether","Georgia",604
+"Miller","Georgia",362
+"Mitchell","Georgia",581
+"Monroe","Georgia",220
+"Montgomery","Georgia",216
+"Morgan","Georgia",224
+"Murray","Georgia",117
+"Muscogee","Georgia",691
+"Newton","Georgia",477
+"Oconee","Georgia",62
+"Oglethorpe","Georgia",162
+"Paulding","Georgia",201
+"Peach","Georgia",574
+"Pickens","Georgia",121
+"Pierce","Georgia",181
+"Pike","Georgia",67
+"Polk","Georgia",204
+"Pulaski","Georgia",390
+"Putnam","Georgia",184
+"Quitman","Georgia",562
+"Rabun","Georgia",118
+"Randolph","Georgia",686
+"Richmond","Georgia",897
+"Rockdale","Georgia",589
+"Schley","Georgia",211
+"Screven","Georgia",323
+"Seminole","Georgia",304
+"Spalding","Georgia",402
+"Stephens","Georgia",261
+"Stewart","Georgia",1618
+"Sumter","Georgia",561
+"Talbot","Georgia",512
+"Taliaferro","Georgia",510
+"Tattnall","Georgia",439
+"Taylor","Georgia",476
+"Telfair","Georgia",753
+"Terrell","Georgia",634
+"Thomas","Georgia",451
+"Tift","Georgia",491
+"Toombs","Georgia",397
+"Towns","Georgia",102
+"Treutlen","Georgia",451
+"Troup","Georgia",358
+"Turner","Georgia",623
+"Twiggs","Georgia",220
+"Union","Georgia",131
+"Upson","Georgia",275
+"Walker","Georgia",165
+"Walton","Georgia",338
+"Ware","Georgia",566
+"Warren","Georgia",424
+"Washington","Georgia",292
+"Wayne","Georgia",423
+"Webster","Georgia",-1
+"Wheeler","Georgia",406
+"White","Georgia",65
+"Whitfield","Georgia",167
+"Wilcox","Georgia",737
+"Wilkes","Georgia",331
+"Wilkinson","Georgia",160
+"Worth","Georgia",360
+"Hawaii","Hawaii",266
+"Honolulu","Hawaii",176
+"Kalawao","Hawaii",-1
+"Kauai","Hawaii",-1
+"Maui","Hawaii",228
+"Ada","Idaho",34
+"Adams","Idaho",0
+"Bannock","Idaho",36
+"Bear Lake","Idaho",0
+"Benewah","Idaho",-1
+"Bingham","Idaho",28
+"Blaine","Idaho",-1
+"Boise","Idaho",-1
+"Bonner","Idaho",30
+"Bonneville","Idaho",22
+"Boundary","Idaho",-1
+"Butte","Idaho",0
+"Camas","Idaho",0
+"Canyon","Idaho",28
+"Caribou","Idaho",0
+"Cassia","Idaho",25
+"Clark","Idaho",0
+"Clearwater","Idaho",-1
+"Custer","Idaho",0
+"Elmore","Idaho",51
+"Franklin","Idaho",0
+"Fremont","Idaho",-1
+"Gem","Idaho",36
+"Gooding","Idaho",70
+"Idaho","Idaho",-1
+"Jefferson","Idaho",-1
+"Jerome","Idaho",-1
+"Kootenai","Idaho",22
+"Latah","Idaho",17
+"Lemhi","Idaho",-1
+"Lewis","Idaho",0
+"Lincoln","Idaho",-1
+"Madison","Idaho",-1
+"Minidoka","Idaho",-1
+"Nez Perce","Idaho",19
+"Oneida","Idaho",0
+"Owyhee","Idaho",-1
+"Payette","Idaho",-1
+"Power","Idaho",-1
+"Shoshone","Idaho",-1
+"Teton","Idaho",0
+"Twin Falls","Idaho",16
+"Valley","Idaho",-1
+"Washington","Idaho",0
+"Adams","Illinois",72
+"Alexander","Illinois",422
+"Bond","Illinois",97
+"Boone","Illinois",47
+"Brown","Illinois",106
+"Bureau","Illinois",75
+"Calhoun","Illinois",133
+"Carroll","Illinois",51
+"Cass","Illinois",-1
+"Champaign","Illinois",228
+"Christian","Illinois",90
+"Clark","Illinois",70
+"Clay","Illinois",-1
+"Clinton","Illinois",83
+"Coles","Illinois",105
+"Cook","Illinois",586
+"Crawford","Illinois",125
+"Cumberland","Illinois",92
+"De Witt","Illinois",38
+"DeKalb","Illinois",102
+"Douglas","Illinois",-1
+"DuPage","Illinois",97
+"Edgar","Illinois",56
+"Edwards","Illinois",-1
+"Effingham","Illinois",32
+"Fayette","Illinois",71
+"Ford","Illinois",53
+"Franklin","Illinois",76
+"Fulton","Illinois",153
+"Gallatin","Illinois",-1
+"Greene","Illinois",-1
+"Grundy","Illinois",32
+"Hamilton","Illinois",0
+"Hancock","Illinois",-1
+"Hardin","Illinois",-1
+"Henderson","Illinois",-1
+"Henry","Illinois",48
+"Iroquois","Illinois",66
+"Jackson","Illinois",103
+"Jasper","Illinois",-1
+"Jefferson","Illinois",123
+"Jersey","Illinois",44
+"Jo Daviess","Illinois",42
+"Johnson","Illinois",237
+"Kane","Illinois",82
+"Kankakee","Illinois",165
+"Kendall","Illinois",58
+"Knox","Illinois",206
+"Lake","Illinois",146
+"LaSalle","Illinois",85
+"Lawrence","Illinois",61
+"Lee","Illinois",85
+"Livingston","Illinois",152
+"Logan","Illinois",173
+"Macon","Illinois",179
+"Macoupin","Illinois",92
+"Madison","Illinois",95
+"Marion","Illinois",42
+"Marshall","Illinois",60
+"Mason","Illinois",63
+"Massac","Illinois",-1
+"McDonough","Illinois",106
+"McHenry","Illinois",62
+"McLean","Illinois",151
+"Menard","Illinois",97
+"Mercer","Illinois",45
+"Monroe","Illinois",20
+"Montgomery","Illinois",149
+"Morgan","Illinois",81
+"Moultrie","Illinois",-1
+"Ogle","Illinois",46
+"Peoria","Illinois",250
+"Perry","Illinois",159
+"Piatt","Illinois",35
+"Pike","Illinois",0
+"Pope","Illinois",-1
+"Pulaski","Illinois",299
+"Putnam","Illinois",0
+"Randolph","Illinois",111
+"Richland","Illinois",-1
+"Rock Island","Illinois",201
+"Saline","Illinois",-1
+"Sangamon","Illinois",200
+"Schuyler","Illinois",-1
+"Scott","Illinois",0
+"Shelby","Illinois",-1
+"St. Clair","Illinois",345
+"Stark","Illinois",-1
+"Stephenson","Illinois",123
+"Tazewell","Illinois",79
+"Union","Illinois",42
+"Vermilion","Illinois",202
+"Wabash","Illinois",64
+"Warren","Illinois",-1
+"Washington","Illinois",0
+"Wayne","Illinois",60
+"White","Illinois",-1
+"Whiteside","Illinois",-1
+"Will","Illinois",117
+"Williamson","Illinois",117
+"Winnebago","Illinois",136
+"Woodford","Illinois",66
+"Adams","Indiana",22
+"Allen","Indiana",189
+"Bartholomew","Indiana",88
+"Benton","Indiana",138
+"Blackford","Indiana",-1
+"Boone","Indiana",92
+"Brown","Indiana",94
+"Carroll","Indiana",29
+"Cass","Indiana",95
+"Clark","Indiana",237
+"Clay","Indiana",86
+"Clinton","Indiana",104
+"Crawford","Indiana",89
+"Daviess","Indiana",118
+"Dearborn","Indiana",44
+"Decatur","Indiana",87
+"DeKalb","Indiana",64
+"Delaware","Indiana",137
+"Dubois","Indiana",61
+"Elkhart","Indiana",124
+"Fayette","Indiana",71
+"Floyd","Indiana",158
+"Fountain","Indiana",36
+"Franklin","Indiana",31
+"Fulton","Indiana",88
+"Gibson","Indiana",58
+"Grant","Indiana",126
+"Greene","Indiana",88
+"Hamilton","Indiana",95
+"Hancock","Indiana",93
+"Harrison","Indiana",71
+"Hendricks","Indiana",128
+"Henry","Indiana",119
+"Howard","Indiana",176
+"Huntington","Indiana",100
+"Jackson","Indiana",145
+"Jasper","Indiana",93
+"Jay","Indiana",72
+"Jefferson","Indiana",123
+"Jennings","Indiana",35
+"Johnson","Indiana",122
+"Knox","Indiana",102
+"Kosciusko","Indiana",57
+"LaGrange","Indiana",45
+"Lake","Indiana",258
+"LaPorte","Indiana",208
+"Lawrence","Indiana",96
+"Madison","Indiana",199
+"Marion","Indiana",625
+"Marshall","Indiana",47
+"Martin","Indiana",85
+"Miami","Indiana",117
+"Monroe","Indiana",189
+"Montgomery","Indiana",113
+"Morgan","Indiana",100
+"Newton","Indiana",51
+"Noble","Indiana",56
+"Ohio","Indiana",-1
+"Orange","Indiana",90
+"Owen","Indiana",93
+"Parke","Indiana",130
+"Perry","Indiana",103
+"Pike","Indiana",-1
+"Porter","Indiana",116
+"Posey","Indiana",66
+"Pulaski","Indiana",57
+"Putnam","Indiana",169
+"Randolph","Indiana",107
+"Ripley","Indiana",58
+"Rush","Indiana",64
+"Scott","Indiana",730
+"Shelby","Indiana",84
+"Spencer","Indiana",30
+"St. Joseph","Indiana",260
+"Starke","Indiana",76
+"Steuben","Indiana",61
+"Sullivan","Indiana",122
+"Switzerland","Indiana",74
+"Tippecanoe","Indiana",133
+"Tipton","Indiana",46
+"Union","Indiana",-1
+"Vanderburgh","Indiana",210
+"Vermillion","Indiana",69
+"Vigo","Indiana",231
+"Wabash","Indiana",46
+"Warren","Indiana",-1
+"Warrick","Indiana",70
+"Washington","Indiana",101
+"Wayne","Indiana",145
+"Wells","Indiana",60
+"White","Indiana",97
+"Whitley","Indiana",52
+"Adair","Iowa",79
+"Adams","Iowa",0
+"Allamakee","Iowa",-1
+"Appanoose","Iowa",48
+"Audubon","Iowa",105
+"Benton","Iowa",37
+"Black Hawk","Iowa",113
+"Boone","Iowa",65
+"Bremer","Iowa",24
+"Buchanan","Iowa",59
+"Buena Vista","Iowa",107
+"Butler","Iowa",41
+"Calhoun","Iowa",0
+"Carroll","Iowa",88
+"Cass","Iowa",-1
+"Cedar","Iowa",45
+"Cerro Gordo","Iowa",93
+"Cherokee","Iowa",-1
+"Chickasaw","Iowa",50
+"Clarke","Iowa",75
+"Clay","Iowa",51
+"Clayton","Iowa",83
+"Clinton","Iowa",108
+"Crawford","Iowa",90
+"Dallas","Iowa",81
+"Davis","Iowa",0
+"Decatur","Iowa",-1
+"Delaware","Iowa",48
+"Des Moines","Iowa",99
+"Dickinson","Iowa",45
+"Dubuque","Iowa",94
+"Emmet","Iowa",-1
+"Fayette","Iowa",85
+"Floyd","Iowa",54
+"Franklin","Iowa",-1
+"Fremont","Iowa",90
+"Greene","Iowa",82
+"Grundy","Iowa",-1
+"Guthrie","Iowa",-1
+"Hamilton","Iowa",88
+"Hancock","Iowa",-1
+"Hardin","Iowa",83
+"Harrison","Iowa",41
+"Henry","Iowa",58
+"Howard","Iowa",-1
+"Humboldt","Iowa",-1
+"Ida","Iowa",-1
+"Iowa","Iowa",50
+"Jackson","Iowa",55
+"Jasper","Iowa",106
+"Jefferson","Iowa",50
+"Johnson","Iowa",160
+"Jones","Iowa",101
+"Keokuk","Iowa",72
+"Kossuth","Iowa",-1
+"Lee","Iowa",50
+"Linn","Iowa",150
+"Louisa","Iowa",77
+"Lucas","Iowa",83
+"Lyon","Iowa",-1
+"Madison","Iowa",100
+"Mahaska","Iowa",49
+"Marion","Iowa",43
+"Marshall","Iowa",107
+"Mills","Iowa",74
+"Mitchell","Iowa",-1
+"Monona","Iowa",-1
+"Monroe","Iowa",-1
+"Montgomery","Iowa",81
+"Muscatine","Iowa",76
+"O'Brien","Iowa",-1
+"Osceola","Iowa",-1
+"Page","Iowa",52
+"Palo Alto","Iowa",-1
+"Plymouth","Iowa",47
+"Pocahontas","Iowa",84
+"Polk","Iowa",217
+"Pottawattamie","Iowa",152
+"Poweshiek","Iowa",112
+"Ringgold","Iowa",-1
+"Sac","Iowa",-1
+"Scott","Iowa",149
+"Shelby","Iowa",61
+"Sioux","Iowa",38
+"Story","Iowa",72
+"Tama","Iowa",93
+"Taylor","Iowa",-1
+"Union","Iowa",69
+"Van Buren","Iowa",-1
+"Wapello","Iowa",95
+"Warren","Iowa",56
+"Washington","Iowa",92
+"Wayne","Iowa",-1
+"Webster","Iowa",57
+"Winnebago","Iowa",67
+"Winneshiek","Iowa",-1
+"Woodbury","Iowa",149
+"Worth","Iowa",-1
+"Wright","Iowa",76
+"Allen","Kansas",123
+"Anderson","Kansas",110
+"Atchison","Kansas",66
+"Barber","Kansas",145
+"Barton","Kansas",91
+"Bourbon","Kansas",111
+"Brown","Kansas",78
+"Butler","Kansas",91
+"Chase","Kansas",226
+"Chautauqua","Kansas",-1
+"Cherokee","Kansas",56
+"Cheyenne","Kansas",-1
+"Clark","Kansas",-1
+"Clay","Kansas",-1
+"Cloud","Kansas",107
+"Coffey","Kansas",-1
+"Comanche","Kansas",0
+"Cowley","Kansas",108
+"Crawford","Kansas",82
+"Decatur","Kansas",-1
+"Dickinson","Kansas",84
+"Doniphan","Kansas",-1
+"Douglas","Kansas",81
+"Edwards","Kansas",-1
+"Elk","Kansas",0
+"Ellis","Kansas",69
+"Ellsworth","Kansas",180
+"Finney","Kansas",117
+"Ford","Kansas",109
+"Franklin","Kansas",101
+"Geary","Kansas",171
+"Gove","Kansas",0
+"Graham","Kansas",-1
+"Grant","Kansas",-1
+"Gray","Kansas",-1
+"Greeley","Kansas",0
+"Greenwood","Kansas",138
+"Hamilton","Kansas",-1
+"Harper","Kansas",-1
+"Harvey","Kansas",99
+"Haskell","Kansas",-1
+"Hodgeman","Kansas",0
+"Jackson","Kansas",46
+"Jefferson","Kansas",58
+"Jewell","Kansas",0
+"Johnson","Kansas",154
+"Kearny","Kansas",-1
+"Kingman","Kansas",-1
+"Kiowa","Kansas",-1
+"Labette","Kansas",79
+"Lane","Kansas",0
+"Leavenworth","Kansas",174
+"Lincoln","Kansas",-1
+"Linn","Kansas",72
+"Logan","Kansas",0
+"Lyon","Kansas",37
+"Marion","Kansas",50
+"Marshall","Kansas",85
+"McPherson","Kansas",39
+"Meade","Kansas",-1
+"Miami","Kansas",69
+"Mitchell","Kansas",-1
+"Montgomery","Kansas",96
+"Morris","Kansas",-1
+"Morton","Kansas",-1
+"Nemaha","Kansas",-1
+"Neosho","Kansas",61
+"Ness","Kansas",-1
+"Norton","Kansas",-1
+"Osage","Kansas",53
+"Osborne","Kansas",0
+"Ottawa","Kansas",-1
+"Pawnee","Kansas",232
+"Phillips","Kansas",0
+"Pottawatomie","Kansas",39
+"Pratt","Kansas",-1
+"Rawlins","Kansas",0
+"Reno","Kansas",92
+"Republic","Kansas",-1
+"Rice","Kansas",63
+"Riley","Kansas",93
+"Rooks","Kansas",-1
+"Rush","Kansas",-1
+"Russell","Kansas",-1
+"Saline","Kansas",142
+"Scott","Kansas",0
+"Sedgwick","Kansas",210
+"Seward","Kansas",195
+"Shawnee","Kansas",156
+"Sheridan","Kansas",0
+"Sherman","Kansas",-1
+"Smith","Kansas",0
+"Stafford","Kansas",-1
+"Stanton","Kansas",-1
+"Stevens","Kansas",-1
+"Sumner","Kansas",139
+"Thomas","Kansas",-1
+"Trego","Kansas",0
+"Wabaunsee","Kansas",-1
+"Wallace","Kansas",0
+"Washington","Kansas",-1
+"Wichita","Kansas",-1
+"Wilson","Kansas",-1
+"Woodson","Kansas",-1
+"Wyandotte","Kansas",346
+"Adair","Kentucky",98
+"Allen","Kentucky",86
+"Anderson","Kentucky",119
+"Ballard","Kentucky",-1
+"Barren","Kentucky",97
+"Bath","Kentucky",-1
+"Bell","Kentucky",89
+"Boone","Kentucky",97
+"Bourbon","Kentucky",76
+"Boyd","Kentucky",189
+"Boyle","Kentucky",91
+"Bracken","Kentucky",71
+"Breathitt","Kentucky",87
+"Breckinridge","Kentucky",138
+"Bullitt","Kentucky",64
+"Butler","Kentucky",97
+"Caldwell","Kentucky",170
+"Calloway","Kentucky",49
+"Campbell","Kentucky",180
+"Carlisle","Kentucky",-1
+"Carroll","Kentucky",57
+"Carter","Kentucky",23
+"Casey","Kentucky",38
+"Christian","Kentucky",209
+"Clark","Kentucky",26
+"Clay","Kentucky",81
+"Clinton","Kentucky",102
+"Crittenden","Kentucky",-1
+"Cumberland","Kentucky",121
+"Daviess","Kentucky",115
+"Edmonson","Kentucky",56
+"Elliott","Kentucky",139
+"Estill","Kentucky",-1
+"Fayette","Kentucky",412
+"Fleming","Kentucky",48
+"Floyd","Kentucky",50
+"Franklin","Kentucky",174
+"Fulton","Kentucky",-1
+"Gallatin","Kentucky",-1
+"Garrard","Kentucky",95
+"Grant","Kentucky",49
+"Graves","Kentucky",175
+"Grayson","Kentucky",45
+"Green","Kentucky",125
+"Greenup","Kentucky",95
+"Hancock","Kentucky",93
+"Hardin","Kentucky",199
+"Harlan","Kentucky",51
+"Harrison","Kentucky",-1
+"Hart","Kentucky",62
+"Henderson","Kentucky",185
+"Henry","Kentucky",106
+"Hickman","Kentucky",-1
+"Hopkins","Kentucky",82
+"Jackson","Kentucky",148
+"Jefferson","Kentucky",514
+"Jessamine","Kentucky",163
+"Johnson","Kentucky",58
+"Kenton","Kentucky",262
+"Knott","Kentucky",50
+"Knox","Kentucky",48
+"Larue","Kentucky",-1
+"Laurel","Kentucky",111
+"Lawrence","Kentucky",37
+"Lee","Kentucky",139
+"Leslie","Kentucky",-1
+"Letcher","Kentucky",50
+"Lewis","Kentucky",73
+"Lincoln","Kentucky",-1
+"Livingston","Kentucky",91
+"Logan","Kentucky",109
+"Lyon","Kentucky",151
+"Madison","Kentucky",85
+"Magoffin","Kentucky",-1
+"Marion","Kentucky",67
+"Marshall","Kentucky",66
+"Martin","Kentucky",83
+"Mason","Kentucky",134
+"McCracken","Kentucky",241
+"McCreary","Kentucky",189
+"McLean","Kentucky",92
+"Meade","Kentucky",75
+"Menifee","Kentucky",110
+"Mercer","Kentucky",62
+"Metcalfe","Kentucky",-1
+"Monroe","Kentucky",-1
+"Montgomery","Kentucky",127
+"Morgan","Kentucky",-1
+"Muhlenberg","Kentucky",88
+"Nelson","Kentucky",76
+"Nicholas","Kentucky",-1
+"Ohio","Kentucky",35
+"Oldham","Kentucky",145
+"Owen","Kentucky",62
+"Owsley","Kentucky",-1
+"Pendleton","Kentucky",57
+"Perry","Kentucky",107
+"Pike","Kentucky",51
+"Powell","Kentucky",55
+"Pulaski","Kentucky",74
+"Robertson","Kentucky",-1
+"Rockcastle","Kentucky",58
+"Rowan","Kentucky",98
+"Russell","Kentucky",33
+"Scott","Kentucky",95
+"Shelby","Kentucky",142
+"Simpson","Kentucky",110
+"Spencer","Kentucky",-1
+"Taylor","Kentucky",46
+"Todd","Kentucky",131
+"Trigg","Kentucky",83
+"Trimble","Kentucky",0
+"Union","Kentucky",109
+"Warren","Kentucky",155
+"Washington","Kentucky",139
+"Wayne","Kentucky",96
+"Webster","Kentucky",-1
+"Whitley","Kentucky",27
+"Wolfe","Kentucky",-1
+"Woodford","Kentucky",118
+"Acadia","Louisiana",531
+"Allen","Louisiana",1088
+"Ascension","Louisiana",271
+"Assumption","Louisiana",722
+"Avoyelles","Louisiana",768
+"Beauregard","Louisiana",167
+"Bienville","Louisiana",810
+"Bossier","Louisiana",514
+"Caddo","Louisiana",540
+"Calcasieu","Louisiana",361
+"Caldwell","Louisiana",347
+"Cameron","Louisiana",327
+"Catahoula","Louisiana",507
+"Claiborne","Louisiana",596
+"Concordia","Louisiana",261
+"De Soto","Louisiana",241
+"East Baton Rouge","Louisiana",1088
+"East Carroll","Louisiana",525
+"East Feliciana","Louisiana",254
+"Evangeline","Louisiana",318
+"Franklin","Louisiana",376
+"Grant","Louisiana",312
+"Iberia","Louisiana",434
+"Iberville","Louisiana",911
+"Jackson","Louisiana",494
+"Jefferson","Louisiana",574
+"Jefferson Davis","Louisiana",147
+"La Salle","Louisiana",362
+"Lafayette","Louisiana",417
+"Lafourche","Louisiana",196
+"Lincoln","Louisiana",147
+"Livingston","Louisiana",324
+"Madison","Louisiana",406
+"Morehouse","Louisiana",442
+"Natchitoches","Louisiana",437
+"Orleans","Louisiana",1503
+"Ouachita","Louisiana",490
+"Plaquemines","Louisiana",261
+"Pointe Coupee","Louisiana",365
+"Rapides","Louisiana",407
+"Red River","Louisiana",-1
+"Richland","Louisiana",79
+"Sabine","Louisiana",151
+"St. Bernard","Louisiana",616
+"St. Charles","Louisiana",524
+"St. Helena","Louisiana",1005
+"St. James","Louisiana",552
+"St. John the Baptist","Louisiana",217
+"St. Landry","Louisiana",411
+"St. Martin","Louisiana",119
+"St. Mary","Louisiana",183
+"St. Tammany","Louisiana",264
+"Tangipahoa","Louisiana",249
+"Tensas","Louisiana",-1
+"Terrebonne","Louisiana",158
+"Union","Louisiana",45
+"Vermilion","Louisiana",189
+"Vernon","Louisiana",140
+"Washington","Louisiana",396
+"Webster","Louisiana",66
+"West Baton Rouge","Louisiana",515
+"West Carroll","Louisiana",209
+"West Feliciana","Louisiana",761
+"Winn","Louisiana",234
+"Androscoggin","Maine",156
+"Aroostook","Maine",74
+"Cumberland","Maine",231
+"Franklin","Maine",80
+"Hancock","Maine",135
+"Kennebec","Maine",133
+"Knox","Maine",91
+"Lincoln","Maine",82
+"Oxford","Maine",74
+"Penobscot","Maine",89
+"Piscataquis","Maine",60
+"Sagadahoc","Maine",99
+"Somerset","Maine",90
+"Waldo","Maine",112
+"Washington","Maine",100
+"York","Maine",140
+"Allegany","Maryland",286
+"Anne Arundel","Maryland",289
+"Baltimore","Maryland",490
+"Baltimore","Maryland",2088
+"Calvert","Maryland",163
+"Caroline","Maryland",241
+"Carroll","Maryland",109
+"Cecil","Maryland",175
+"Charles","Maryland",480
+"Dorchester","Maryland",534
+"Frederick","Maryland",223
+"Garrett","Maryland",56
+"Harford","Maryland",239
+"Howard","Maryland",255
+"Kent","Maryland",291
+"Montgomery","Maryland",445
+"Prince George's","Maryland",1006
+"Queen Anne's","Maryland",129
+"Somerset","Maryland",496
+"St. Mary's","Maryland",160
+"Talbot","Maryland",240
+"Washington","Maryland",372
+"Wicomico","Maryland",305
+"Worcester","Maryland",188
+"Barnstable","Massachusetts",382
+"Berkshire","Massachusetts",172
+"Bristol","Massachusetts",279
+"Dukes","Massachusetts",270
+"Essex","Massachusetts",290
+"Franklin","Massachusetts",153
+"Hampden","Massachusetts",490
+"Hampshire","Massachusetts",132
+"Middlesex","Massachusetts",288
+"Nantucket","Massachusetts",194
+"Norfolk","Massachusetts",234
+"Plymouth","Massachusetts",251
+"Suffolk","Massachusetts",832
+"Worcester","Massachusetts",275
+"Alcona","Michigan",54
+"Alger","Michigan",139
+"Allegan","Michigan",122
+"Alpena","Michigan",44
+"Antrim","Michigan",90
+"Arenac","Michigan",69
+"Baraga","Michigan",96
+"Barry","Michigan",60
+"Bay","Michigan",108
+"Benzie","Michigan",63
+"Berrien","Michigan",182
+"Branch","Michigan",66
+"Calhoun","Michigan",180
+"Cass","Michigan",54
+"Charlevoix","Michigan",48
+"Cheboygan","Michigan",78
+"Chippewa","Michigan",65
+"Clare","Michigan",146
+"Clinton","Michigan",104
+"Crawford","Michigan",52
+"Delta","Michigan",63
+"Dickinson","Michigan",-1
+"Eaton","Michigan",112
+"Emmet","Michigan",43
+"Genesee","Michigan",172
+"Gladwin","Michigan",59
+"Gogebic","Michigan",47
+"Grand Traverse","Michigan",104
+"Gratiot","Michigan",111
+"Hillsdale","Michigan",54
+"Houghton","Michigan",50
+"Huron","Michigan",33
+"Ingham","Michigan",188
+"Ionia","Michigan",119
+"Iosco","Michigan",54
+"Iron","Michigan",108
+"Isabella","Michigan",77
+"Jackson","Michigan",178
+"Kalamazoo","Michigan",186
+"Kalkaska","Michigan",123
+"Kent","Michigan",200
+"Keweenaw","Michigan",-1
+"Lake","Michigan",220
+"Lapeer","Michigan",85
+"Leelanau","Michigan",35
+"Lenawee","Michigan",85
+"Livingston","Michigan",56
+"Luce","Michigan",128
+"Mackinac","Michigan",93
+"Macomb","Michigan",175
+"Manistee","Michigan",89
+"Marquette","Michigan",74
+"Mason","Michigan",71
+"Mecosta","Michigan",83
+"Menominee","Michigan",49
+"Midland","Michigan",59
+"Missaukee","Michigan",-1
+"Monroe","Michigan",88
+"Montcalm","Michigan",77
+"Montmorency","Michigan",132
+"Muskegon","Michigan",128
+"Newaygo","Michigan",66
+"Oakland","Michigan",199
+"Oceana","Michigan",44
+"Ogemaw","Michigan",55
+"Ontonagon","Michigan",-1
+"Osceola","Michigan",97
+"Oscoda","Michigan",126
+"Otsego","Michigan",79
+"Ottawa","Michigan",58
+"Presque Isle","Michigan",-1
+"Roscommon","Michigan",66
+"Saginaw","Michigan",147
+"Sanilac","Michigan",69
+"Schoolcraft","Michigan",-1
+"Shiawassee","Michigan",81
+"St. Clair","Michigan",78
+"St. Joseph","Michigan",69
+"Tuscola","Michigan",29
+"Van Buren","Michigan",118
+"Washtenaw","Michigan",186
+"Wayne","Michigan",490
+"Wexford","Michigan",74
+"Aitkin","Minnesota",42
+"Anoka","Minnesota",145
+"Becker","Minnesota",41
+"Beltrami","Minnesota",90
+"Benton","Minnesota",88
+"Big Stone","Minnesota",0
+"Blue Earth","Minnesota",76
+"Brown","Minnesota",46
+"Carlton","Minnesota",49
+"Carver","Minnesota",62
+"Cass","Minnesota",46
+"Chippewa","Minnesota",-1
+"Chisago","Minnesota",52
+"Clay","Minnesota",104
+"Clearwater","Minnesota",-1
+"Cook","Minnesota",-1
+"Cottonwood","Minnesota",85
+"Crow Wing","Minnesota",57
+"Dakota","Minnesota",147
+"Dodge","Minnesota",29
+"Douglas","Minnesota",45
+"Faribault","Minnesota",93
+"Fillmore","Minnesota",28
+"Freeborn","Minnesota",50
+"Goodhue","Minnesota",67
+"Grant","Minnesota",116
+"Hennepin","Minnesota",435
+"Houston","Minnesota",38
+"Hubbard","Minnesota",43
+"Isanti","Minnesota",48
+"Itasca","Minnesota",44
+"Jackson","Minnesota",83
+"Kanabec","Minnesota",51
+"Kandiyohi","Minnesota",55
+"Kittson","Minnesota",-1
+"Koochiching","Minnesota",0
+"Lac qui Parle","Minnesota",-1
+"Lake","Minnesota",63
+"Lake of the Woods","Minnesota",-1
+"Le Sueur","Minnesota",54
+"Lincoln","Minnesota",107
+"Lyon","Minnesota",68
+"Mahnomen","Minnesota",-1
+"Marshall","Minnesota",-1
+"Martin","Minnesota",84
+"McLeod","Minnesota",84
+"Meeker","Minnesota",72
+"Mille Lacs","Minnesota",94
+"Morrison","Minnesota",46
+"Mower","Minnesota",197
+"Murray","Minnesota",-1
+"Nicollet","Minnesota",69
+"Nobles","Minnesota",189
+"Norman","Minnesota",-1
+"Olmsted","Minnesota",166
+"Otter Tail","Minnesota",37
+"Pennington","Minnesota",69
+"Pine","Minnesota",110
+"Pipestone","Minnesota",80
+"Polk","Minnesota",95
+"Pope","Minnesota",52
+"Ramsey","Minnesota",314
+"Red Lake","Minnesota",-1
+"Redwood","Minnesota",79
+"Renville","Minnesota",57
+"Rice","Minnesota",107
+"Rock","Minnesota",86
+"Roseau","Minnesota",-1
+"Scott","Minnesota",105
+"Sherburne","Minnesota",79
+"Sibley","Minnesota",40
+"St. Louis","Minnesota",93
+"Stearns","Minnesota",101
+"Steele","Minnesota",61
+"Stevens","Minnesota",-1
+"Swift","Minnesota",-1
+"Todd","Minnesota",24
+"Traverse","Minnesota",-1
+"Wabasha","Minnesota",66
+"Wadena","Minnesota",78
+"Waseca","Minnesota",50
+"Washington","Minnesota",101
+"Watonwan","Minnesota",66
+"Wilkin","Minnesota",-1
+"Winona","Minnesota",62
+"Wright","Minnesota",66
+"Yellow Medicine","Minnesota",-1
+"Adams","Mississippi",478
+"Alcorn","Mississippi",179
+"Amite","Mississippi",276
+"Attala","Mississippi",314
+"Benton","Mississippi",355
+"Bolivar","Mississippi",477
+"Calhoun","Mississippi",164
+"Carroll","Mississippi",391
+"Chickasaw","Mississippi",272
+"Choctaw","Mississippi",101
+"Claiborne","Mississippi",396
+"Clarke","Mississippi",474
+"Clay","Mississippi",383
+"Coahoma","Mississippi",1004
+"Copiah","Mississippi",439
+"Covington","Mississippi",352
+"DeSoto","Mississippi",273
+"Forrest","Mississippi",681
+"Franklin","Mississippi",216
+"George","Mississippi",160
+"Greene","Mississippi",708
+"Grenada","Mississippi",462
+"Hancock","Mississippi",228
+"Harrison","Mississippi",392
+"Hinds","Mississippi",1192
+"Holmes","Mississippi",488
+"Humphreys","Mississippi",351
+"Issaquena","Mississippi",-1
+"Itawamba","Mississippi",203
+"Jackson","Mississippi",237
+"Jasper","Mississippi",389
+"Jefferson","Mississippi",330
+"Jefferson Davis","Mississippi",334
+"Jones","Mississippi",320
+"Kemper","Mississippi",220
+"Lafayette","Mississippi",204
+"Lamar","Mississippi",89
+"Lauderdale","Mississippi",482
+"Lawrence","Mississippi",417
+"Leake","Mississippi",340
+"Lee","Mississippi",334
+"Leflore","Mississippi",458
+"Lincoln","Mississippi",187
+"Lowndes","Mississippi",339
+"Madison","Mississippi",296
+"Marion","Mississippi",342
+"Marshall","Mississippi",281
+"Monroe","Mississippi",181
+"Montgomery","Mississippi",305
+"Neshoba","Mississippi",226
+"Newton","Mississippi",269
+"Noxubee","Mississippi",421
+"Oktibbeha","Mississippi",161
+"Panola","Mississippi",285
+"Pearl River","Mississippi",246
+"Perry","Mississippi",266
+"Pike","Mississippi",466
+"Pontotoc","Mississippi",93
+"Prentiss","Mississippi",72
+"Quitman","Mississippi",400
+"Rankin","Mississippi",296
+"Scott","Mississippi",347
+"Sharkey","Mississippi",-1
+"Simpson","Mississippi",328
+"Smith","Mississippi",185
+"Stone","Mississippi",222
+"Sunflower","Mississippi",622
+"Tallahatchie","Mississippi",356
+"Tate","Mississippi",156
+"Tippah","Mississippi",172
+"Tishomingo","Mississippi",69
+"Tunica","Mississippi",778
+"Union","Mississippi",148
+"Walthall","Mississippi",265
+"Warren","Mississippi",437
+"Washington","Mississippi",552
+"Wayne","Mississippi",215
+"Webster","Mississippi",217
+"Wilkinson","Mississippi",351
+"Winston","Mississippi",287
+"Yalobusha","Mississippi",284
+"Yazoo","Mississippi",489
+"Adair","Missouri",214
+"Andrew","Missouri",252
+"Atchison","Missouri",-1
+"Audrain","Missouri",143
+"Barry","Missouri",151
+"Barton","Missouri",92
+"Bates","Missouri",156
+"Benton","Missouri",234
+"Bollinger","Missouri",224
+"Boone","Missouri",161
+"Buchanan","Missouri",180
+"Butler","Missouri",131
+"Caldwell","Missouri",188
+"Callaway","Missouri",223
+"Camden","Missouri",117
+"Cape Girardeau","Missouri",103
+"Carroll","Missouri",113
+"Carter","Missouri",-1
+"Cass","Missouri",98
+"Cedar","Missouri",59
+"Chariton","Missouri",146
+"Christian","Missouri",114
+"Clark","Missouri",124
+"Clay","Missouri",200
+"Clinton","Missouri",73
+"Cole","Missouri",150
+"Cooper","Missouri",324
+"Crawford","Missouri",155
+"Dade","Missouri",122
+"Dallas","Missouri",125
+"Daviess","Missouri",173
+"DeKalb","Missouri",105
+"Dent","Missouri",247
+"Douglas","Missouri",221
+"Dunklin","Missouri",142
+"Franklin","Missouri",84
+"Gasconade","Missouri",47
+"Gentry","Missouri",120
+"Greene","Missouri",236
+"Grundy","Missouri",75
+"Harrison","Missouri",74
+"Henry","Missouri",75
+"Hickory","Missouri",66
+"Holt","Missouri",0
+"Howard","Missouri",105
+"Howell","Missouri",48
+"Iron","Missouri",174
+"Jackson","Missouri",494
+"Jasper","Missouri",181
+"Jefferson","Missouri",101
+"Johnson","Missouri",116
+"Knox","Missouri",158
+"Laclede","Missouri",37
+"Lafayette","Missouri",47
+"Lawrence","Missouri",57
+"Lewis","Missouri",59
+"Lincoln","Missouri",115
+"Linn","Missouri",-1
+"Livingston","Missouri",88
+"Macon","Missouri",55
+"Madison","Missouri",-1
+"Maries","Missouri",166
+"Marion","Missouri",97
+"McDonald","Missouri",146
+"Mercer","Missouri",-1
+"Miller","Missouri",29
+"Mississippi","Missouri",460
+"Moniteau","Missouri",180
+"Monroe","Missouri",272
+"Montgomery","Missouri",83
+"Morgan","Missouri",-1
+"New Madrid","Missouri",90
+"Newton","Missouri",24
+"Nodaway","Missouri",64
+"Oregon","Missouri",152
+"Osage","Missouri",-1
+"Ozark","Missouri",-1
+"Pemiscot","Missouri",154
+"Perry","Missouri",-1
+"Pettis","Missouri",79
+"Phelps","Missouri",31
+"Pike","Missouri",94
+"Platte","Missouri",162
+"Polk","Missouri",78
+"Pulaski","Missouri",71
+"Putnam","Missouri",-1
+"Ralls","Missouri",-1
+"Randolph","Missouri",100
+"Ray","Missouri",36
+"Reynolds","Missouri",95
+"Ripley","Missouri",-1
+"Saline","Missouri",41
+"Schuyler","Missouri",-1
+"Scotland","Missouri",-1
+"Scott","Missouri",48
+"Shannon","Missouri",-1
+"Shelby","Missouri",-1
+"St. Charles","Missouri",104
+"St. Clair","Missouri",-1
+"St. Francois","Missouri",90
+"St. Louis","Missouri",346
+"St. Louis","Missouri",1074
+"Ste. Genevieve","Missouri",249
+"Stoddard","Missouri",25
+"Stone","Missouri",132
+"Sullivan","Missouri",122
+"Taney","Missouri",67
+"Texas","Missouri",52
+"Vernon","Missouri",153
+"Warren","Missouri",43
+"Washington","Missouri",147
+"Wayne","Missouri",-1
+"Webster","Missouri",75
+"Worth","Missouri",0
+"Wright","Missouri",-1
+"Beaverhead","Montana",-1
+"Big Horn","Montana",111
+"Blaine","Montana",91
+"Broadwater","Montana",0
+"Carbon","Montana",104
+"Carter","Montana",0
+"Cascade","Montana",78
+"Chouteau","Montana",0
+"Custer","Montana",78
+"Daniels","Montana",-1
+"Dawson","Montana",80
+"Deer Lodge","Montana",81
+"Fallon","Montana",0
+"Fergus","Montana",51
+"Flathead","Montana",61
+"Gallatin","Montana",69
+"Garfield","Montana",0
+"Glacier","Montana",46
+"Golden Valley","Montana",-1
+"Granite","Montana",-1
+"Hill","Montana",-1
+"Jefferson","Montana",83
+"Judith Basin","Montana",-1
+"Lake","Montana",85
+"Lewis and Clark","Montana",62
+"Liberty","Montana",0
+"Lincoln","Montana",45
+"Madison","Montana",88
+"McCone","Montana",0
+"Meagher","Montana",-1
+"Mineral","Montana",-1
+"Missoula","Montana",127
+"Musselshell","Montana",-1
+"Park","Montana",91
+"Petroleum","Montana",0
+"Phillips","Montana",-1
+"Pondera","Montana",-1
+"Powder River","Montana",0
+"Powell","Montana",159
+"Prairie","Montana",0
+"Ravalli","Montana",52
+"Richland","Montana",-1
+"Roosevelt","Montana",-1
+"Rosebud","Montana",-1
+"Sanders","Montana",61
+"Sheridan","Montana",-1
+"Silver Bow","Montana",60
+"Stillwater","Montana",-1
+"Sweet Grass","Montana",0
+"Teton","Montana",-1
+"Toole","Montana",-1
+"Treasure","Montana",0
+"Valley","Montana",-1
+"Wheatland","Montana",0
+"Wibaux","Montana",0
+"Yellowstone","Montana",101
+"Adams","Nebraska",31
+"Antelope","Nebraska",-1
+"Arthur","Nebraska",0
+"Banner","Nebraska",0
+"Blaine","Nebraska",-1
+"Boone","Nebraska",0
+"Box Butte","Nebraska",-1
+"Boyd","Nebraska",0
+"Brown","Nebraska",0
+"Buffalo","Nebraska",24
+"Burt","Nebraska",0
+"Butler","Nebraska",-1
+"Cass","Nebraska",26
+"Cedar","Nebraska",-1
+"Chase","Nebraska",-1
+"Cherry","Nebraska",-1
+"Cheyenne","Nebraska",-1
+"Clay","Nebraska",-1
+"Colfax","Nebraska",-1
+"Cuming","Nebraska",0
+"Custer","Nebraska",80
+"Dakota","Nebraska",48
+"Dawes","Nebraska",0
+"Dawson","Nebraska",-1
+"Deuel","Nebraska",0
+"Dixon","Nebraska",0
+"Dodge","Nebraska",36
+"Douglas","Nebraska",83
+"Dundy","Nebraska",0
+"Fillmore","Nebraska",0
+"Franklin","Nebraska",0
+"Frontier","Nebraska",-1
+"Furnas","Nebraska",0
+"Gage","Nebraska",-1
+"Garden","Nebraska",0
+"Garfield","Nebraska",0
+"Gosper","Nebraska",0
+"Grant","Nebraska",0
+"Greeley","Nebraska",0
+"Hall","Nebraska",72
+"Hamilton","Nebraska",0
+"Harlan","Nebraska",0
+"Hayes","Nebraska",0
+"Hitchcock","Nebraska",0
+"Holt","Nebraska",-1
+"Hooker","Nebraska",0
+"Howard","Nebraska",-1
+"Jefferson","Nebraska",-1
+"Johnson","Nebraska",0
+"Kearney","Nebraska",0
+"Keith","Nebraska",-1
+"Keya Paha","Nebraska",0
+"Kimball","Nebraska",-1
+"Knox","Nebraska",-1
+"Lancaster","Nebraska",39
+"Lincoln","Nebraska",24
+"Logan","Nebraska",0
+"Loup","Nebraska",0
+"Madison","Nebraska",49
+"McPherson","Nebraska",0
+"Merrick","Nebraska",-1
+"Morrill","Nebraska",-1
+"Nance","Nebraska",0
+"Nemaha","Nebraska",-1
+"Nuckolls","Nebraska",0
+"Otoe","Nebraska",-1
+"Pawnee","Nebraska",0
+"Perkins","Nebraska",-1
+"Phelps","Nebraska",-1
+"Pierce","Nebraska",0
+"Platte","Nebraska",-1
+"Polk","Nebraska",-1
+"Red Willow","Nebraska",0
+"Richardson","Nebraska",-1
+"Rock","Nebraska",-1
+"Saline","Nebraska",-1
+"Sarpy","Nebraska",25
+"Saunders","Nebraska",0
+"Scotts Bluff","Nebraska",20
+"Seward","Nebraska",-1
+"Sheridan","Nebraska",0
+"Sherman","Nebraska",0
+"Sioux","Nebraska",0
+"Stanton","Nebraska",-1
+"Thayer","Nebraska",0
+"Thomas","Nebraska",0
+"Thurston","Nebraska",-1
+"Valley","Nebraska",0
+"Washington","Nebraska",0
+"Wayne","Nebraska",-1
+"Webster","Nebraska",0
+"Wheeler","Nebraska",0
+"York","Nebraska",59
+"Carson City","Nevada",391
+"Churchill","Nevada",154
+"Clark","Nevada",503
+"Douglas","Nevada",110
+"Elko","Nevada",73
+"Esmeralda","Nevada",-1
+"Eureka","Nevada",-1
+"Humboldt","Nevada",77
+"Lander","Nevada",-1
+"Lincoln","Nevada",0
+"Lyon","Nevada",106
+"Mineral","Nevada",-1
+"Nye","Nevada",191
+"Pershing","Nevada",101
+"Storey","Nevada",-1
+"Washoe","Nevada",266
+"White Pine","Nevada",317
+"Belknap","New Hampshire",48
+"Carroll","New Hampshire",41
+"Cheshire","New Hampshire",49
+"Coos","New Hampshire",47
+"Grafton","New Hampshire",43
+"Hillsborough","New Hampshire",80
+"Merrimack","New Hampshire",83
+"Rockingham","New Hampshire",54
+"Strafford","New Hampshire",64
+"Sullivan","New Hampshire",42
+"Atlantic","New Jersey",516
+"Bergen","New Jersey",230
+"Burlington","New Jersey",246
+"Camden","New Jersey",408
+"Cape May","New Jersey",216
+"Cumberland","New Jersey",504
+"Essex","New Jersey",1251
+"Gloucester","New Jersey",167
+"Hudson","New Jersey",829
+"Hunterdon","New Jersey",177
+"Mercer","New Jersey",463
+"Middlesex","New Jersey",300
+"Monmouth","New Jersey",312
+"Morris","New Jersey",184
+"Ocean","New Jersey",153
+"Passaic","New Jersey",540
+"Salem","New Jersey",281
+"Somerset","New Jersey",214
+"Sussex","New Jersey",151
+"Union","New Jersey",585
+"Warren","New Jersey",163
+"Bernalillo","New Mexico",292
+"Catron","New Mexico",-1
+"Chaves","New Mexico",135
+"Cibola","New Mexico",444
+"Colfax","New Mexico",129
+"Curry","New Mexico",88
+"De Baca","New Mexico",0
+"Do??a Ana","New Mexico",254
+"Eddy","New Mexico",77
+"Grant","New Mexico",132
+"Guadalupe","New Mexico",-1
+"Harding","New Mexico",0
+"Hidalgo","New Mexico",-1
+"Lea","New Mexico",87
+"Lincoln","New Mexico",185
+"Los Alamos","New Mexico",30
+"Luna","New Mexico",136
+"McKinley","New Mexico",252
+"Mora","New Mexico",136
+"Otero","New Mexico",122
+"Quay","New Mexico",109
+"Rio Arriba","New Mexico",160
+"Roosevelt","New Mexico",114
+"San Juan","New Mexico",146
+"San Miguel","New Mexico",163
+"Sandoval","New Mexico",161
+"Santa Fe","New Mexico",339
+"Sierra","New Mexico",147
+"Socorro","New Mexico",153
+"Taos","New Mexico",176
+"Torrance","New Mexico",373
+"Union","New Mexico",-1
+"Valencia","New Mexico",174
+"Albany","New York",415
+"Allegany","New York",78
+"Bronx","New York",2329
+"Broome","New York",246
+"Cattaraugus","New York",122
+"Cayuga","New York",218
+"Chautauqua","New York",228
+"Chemung","New York",254
+"Chenango","New York",146
+"Clinton","New York",252
+"Columbia","New York",406
+"Cortland","New York",114
+"Delaware","New York",121
+"Dutchess","New York",336
+"Erie","New York",290
+"Essex","New York",168
+"Franklin","New York",367
+"Fulton","New York",142
+"Genesee","New York",187
+"Greene","New York",399
+"Hamilton","New York",-1
+"Herkimer","New York",95
+"Jefferson","New York",170
+"Kings","New York",1187
+"Lewis","New York",67
+"Livingston","New York",201
+"Madison","New York",80
+"Monroe","New York",361
+"Montgomery","New York",205
+"Nassau","New York",239
+"New York","New York",1859
+"Niagara","New York",148
+"Oneida","New York",274
+"Onondaga","New York",282
+"Ontario","New York",113
+"Orange","New York",303
+"Orleans","New York",447
+"Oswego","New York",83
+"Otsego","New York",132
+"Putnam","New York",175
+"Queens","New York",812
+"Rensselaer","New York",241
+"Richmond","New York",511
+"Rockland","New York",253
+"Saratoga","New York",118
+"Schenectady","New York",330
+"Schoharie","New York",114
+"Schuyler","New York",-1
+"Seneca","New York",245
+"St. Lawrence","New York",191
+"Steuben","New York",108
+"Suffolk","New York",237
+"Sullivan","New York",457
+"Tioga","New York",114
+"Tompkins","New York",168
+"Ulster","New York",350
+"Warren","New York",137
+"Washington","New York",195
+"Wayne","New York",141
+"Westchester","New York",404
+"Wyoming","New York",252
+"Yates","New York",58
+"Alamance","North Carolina",344
+"Alexander","North Carolina",139
+"Alleghany","North Carolina",72
+"Anson","North Carolina",369
+"Ashe","North Carolina",68
+"Avery","North Carolina",224
+"Beaufort","North Carolina",299
+"Bertie","North Carolina",478
+"Bladen","North Carolina",327
+"Brunswick","North Carolina",146
+"Buncombe","North Carolina",301
+"Burke","North Carolina",138
+"Cabarrus","North Carolina",227
+"Caldwell","North Carolina",137
+"Camden","North Carolina",99
+"Carteret","North Carolina",132
+"Caswell","North Carolina",318
+"Catawba","North Carolina",198
+"Chatham","North Carolina",193
+"Cherokee","North Carolina",131
+"Chowan","North Carolina",101
+"Clay","North Carolina",119
+"Cleveland","North Carolina",253
+"Columbus","North Carolina",408
+"Craven","North Carolina",289
+"Cumberland","North Carolina",556
+"Currituck","North Carolina",104
+"Dare","North Carolina",88
+"Davidson","North Carolina",232
+"Davie","North Carolina",110
+"Duplin","North Carolina",342
+"Durham","North Carolina",650
+"Edgecombe","North Carolina",684
+"Forsyth","North Carolina",519
+"Franklin","North Carolina",230
+"Gaston","North Carolina",380
+"Gates","North Carolina",156
+"Graham","North Carolina",-1
+"Granville","North Carolina",497
+"Greene","North Carolina",426
+"Guilford","North Carolina",551
+"Halifax","North Carolina",397
+"Harnett","North Carolina",294
+"Haywood","North Carolina",134
+"Henderson","North Carolina",188
+"Hertford","North Carolina",494
+"Hoke","North Carolina",398
+"Hyde","North Carolina",249
+"Iredell","North Carolina",133
+"Jackson","North Carolina",104
+"Johnston","North Carolina",236
+"Jones","North Carolina",260
+"Lee","North Carolina",327
+"Lenoir","North Carolina",510
+"Lincoln","North Carolina",113
+"Macon","North Carolina",186
+"Madison","North Carolina",116
+"Martin","North Carolina",344
+"McDowell","North Carolina",78
+"Mecklenburg","North Carolina",668
+"Mitchell","North Carolina",100
+"Montgomery","North Carolina",222
+"Moore","North Carolina",159
+"Nash","North Carolina",411
+"New Hanover","North Carolina",308
+"Northampton","North Carolina",319
+"Onslow","North Carolina",184
+"Orange","North Carolina",242
+"Pamlico","North Carolina",206
+"Pasquotank","North Carolina",309
+"Pender","North Carolina",196
+"Perquimans","North Carolina",166
+"Person","North Carolina",298
+"Pitt","North Carolina",464
+"Polk","North Carolina",148
+"Randolph","North Carolina",192
+"Richmond","North Carolina",412
+"Robeson","North Carolina",480
+"Rockingham","North Carolina",208
+"Rowan","North Carolina",293
+"Rutherford","North Carolina",115
+"Sampson","North Carolina",334
+"Scotland","North Carolina",471
+"Stanly","North Carolina",203
+"Stokes","North Carolina",116
+"Surry","North Carolina",148
+"Swain","North Carolina",93
+"Transylvania","North Carolina",135
+"Tyrrell","North Carolina",-1
+"Union","North Carolina",145
+"Vance","North Carolina",517
+"Wake","North Carolina",372
+"Warren","North Carolina",456
+"Washington","North Carolina",448
+"Watauga","North Carolina",58
+"Wayne","North Carolina",344
+"Wilkes","North Carolina",116
+"Wilson","North Carolina",546
+"Yadkin","North Carolina",123
+"Yancey","North Carolina",61
+"Adams","North Dakota",0
+"Barnes","North Dakota",-1
+"Benson","North Dakota",-1
+"Billings","North Dakota",-1
+"Bottineau","North Dakota",-1
+"Bowman","North Dakota",0
+"Burke","North Dakota",-1
+"Burleigh","North Dakota",82
+"Cass","North Dakota",139
+"Cavalier","North Dakota",-1
+"Dickey","North Dakota",-1
+"Divide","North Dakota",-1
+"Dunn","North Dakota",215
+"Eddy","North Dakota",0
+"Emmons","North Dakota",0
+"Foster","North Dakota",-1
+"Golden Valley","North Dakota",0
+"Grand Forks","North Dakota",100
+"Grant","North Dakota",-1
+"Griggs","North Dakota",0
+"Hettinger","North Dakota",-1
+"Kidder","North Dakota",-1
+"LaMoure","North Dakota",-1
+"Logan","North Dakota",0
+"McHenry","North Dakota",-1
+"McIntosh","North Dakota",0
+"McKenzie","North Dakota",104
+"McLean","North Dakota",-1
+"Mercer","North Dakota",-1
+"Morton","North Dakota",50
+"Mountrail","North Dakota",-1
+"Nelson","North Dakota",230
+"Oliver","North Dakota",0
+"Pembina","North Dakota",105
+"Pierce","North Dakota",-1
+"Ramsey","North Dakota",0
+"Ransom","North Dakota",0
+"Renville","North Dakota",0
+"Richland","North Dakota",57
+"Rolette","North Dakota",-1
+"Sargent","North Dakota",-1
+"Sheridan","North Dakota",0
+"Sioux","North Dakota",0
+"Slope","North Dakota",0
+"Stark","North Dakota",65
+"Steele","North Dakota",0
+"Stutsman","North Dakota",54
+"Towner","North Dakota",-1
+"Traill","North Dakota",-1
+"Walsh","North Dakota",103
+"Ward","North Dakota",74
+"Wells","North Dakota",-1
+"Williams","North Dakota",41
+"Adams","Ohio",79
+"Allen","Ohio",197
+"Ashland","Ohio",48
+"Ashtabula","Ohio",150
+"Athens","Ohio",99
+"Auglaize","Ohio",47
+"Belmont","Ohio",165
+"Brown","Ohio",79
+"Butler","Ohio",156
+"Carroll","Ohio",48
+"Champaign","Ohio",100
+"Clark","Ohio",143
+"Clermont","Ohio",103
+"Clinton","Ohio",110
+"Columbiana","Ohio",89
+"Coshocton","Ohio",66
+"Crawford","Ohio",65
+"Cuyahoga","Ohio",466
+"Darke","Ohio",72
+"Defiance","Ohio",90
+"Delaware","Ohio",81
+"Erie","Ohio",143
+"Fairfield","Ohio",150
+"Fayette","Ohio",87
+"Franklin","Ohio",479
+"Fulton","Ohio",45
+"Gallia","Ohio",90
+"Geauga","Ohio",44
+"Greene","Ohio",144
+"Guernsey","Ohio",99
+"Hamilton","Ohio",458
+"Hancock","Ohio",95
+"Hardin","Ohio",82
+"Harrison","Ohio",81
+"Henry","Ohio",43
+"Highland","Ohio",80
+"Hocking","Ohio",105
+"Holmes","Ohio",-1
+"Huron","Ohio",74
+"Jackson","Ohio",111
+"Jefferson","Ohio",107
+"Knox","Ohio",68
+"Lake","Ohio",105
+"Lawrence","Ohio",139
+"Licking","Ohio",124
+"Logan","Ohio",80
+"Lorain","Ohio",178
+"Lucas","Ohio",289
+"Madison","Ohio",231
+"Mahoning","Ohio",281
+"Marion","Ohio",201
+"Medina","Ohio",71
+"Meigs","Ohio",48
+"Mercer","Ohio",53
+"Miami","Ohio",85
+"Monroe","Ohio",70
+"Montgomery","Ohio",343
+"Morgan","Ohio",136
+"Morrow","Ohio",60
+"Muskingum","Ohio",95
+"Noble","Ohio",228
+"Ottawa","Ohio",43
+"Paulding","Ohio",57
+"Perry","Ohio",118
+"Pickaway","Ohio",267
+"Pike","Ohio",93
+"Portage","Ohio",81
+"Preble","Ohio",40
+"Putnam","Ohio",29
+"Richland","Ohio",158
+"Ross","Ohio",172
+"Sandusky","Ohio",92
+"Scioto","Ohio",100
+"Seneca","Ohio",64
+"Shelby","Ohio",91
+"Stark","Ohio",162
+"Summit","Ohio",220
+"Trumbull","Ohio",146
+"Tuscarawas","Ohio",40
+"Union","Ohio",132
+"Van Wert","Ohio",50
+"Vinton","Ohio",-1
+"Warren","Ohio",106
+"Washington","Ohio",96
+"Wayne","Ohio",75
+"Williams","Ohio",113
+"Wood","Ohio",78
+"Wyandot","Ohio",27
+"Adair","Oklahoma",90
+"Alfalfa","Oklahoma",428
+"Atoka","Oklahoma",75
+"Beaver","Oklahoma",-1
+"Beckham","Oklahoma",254
+"Blaine","Oklahoma",371
+"Bryan","Oklahoma",151
+"Caddo","Oklahoma",170
+"Canadian","Oklahoma",131
+"Carter","Oklahoma",114
+"Cherokee","Oklahoma",109
+"Choctaw","Oklahoma",169
+"Cimarron","Oklahoma",0
+"Cleveland","Oklahoma",133
+"Coal","Oklahoma",-1
+"Comanche","Oklahoma",229
+"Cotton","Oklahoma",-1
+"Craig","Oklahoma",219
+"Creek","Oklahoma",154
+"Custer","Oklahoma",126
+"Delaware","Oklahoma",88
+"Dewey","Oklahoma",0
+"Ellis","Oklahoma",0
+"Garfield","Oklahoma",101
+"Garvin","Oklahoma",99
+"Grady","Oklahoma",66
+"Grant","Oklahoma",-1
+"Greer","Oklahoma",338
+"Harmon","Oklahoma",-1
+"Harper","Oklahoma",-1
+"Haskell","Oklahoma",72
+"Hughes","Oklahoma",97
+"Jackson","Oklahoma",104
+"Jefferson","Oklahoma",-1
+"Johnston","Oklahoma",93
+"Kay","Oklahoma",119
+"Kingfisher","Oklahoma",105
+"Kiowa","Oklahoma",-1
+"Latimer","Oklahoma",88
+"Le Flore","Oklahoma",134
+"Lincoln","Oklahoma",113
+"Logan","Oklahoma",91
+"Love","Oklahoma",107
+"Major","Oklahoma",-1
+"Marshall","Oklahoma",77
+"Mayes","Oklahoma",61
+"McClain","Oklahoma",97
+"McCurtain","Oklahoma",76
+"McIntosh","Oklahoma",175
+"Murray","Oklahoma",70
+"Muskogee","Oklahoma",199
+"Noble","Oklahoma",175
+"Nowata","Oklahoma",167
+"Okfuskee","Oklahoma",191
+"Oklahoma","Oklahoma",387
+"Okmulgee","Oklahoma",127
+"Osage","Oklahoma",189
+"Ottawa","Oklahoma",65
+"Pawnee","Oklahoma",99
+"Payne","Oklahoma",104
+"Pittsburg","Oklahoma",120
+"Pontotoc","Oklahoma",105
+"Pottawatomie","Oklahoma",151
+"Pushmataha","Oklahoma",-1
+"Roger Mills","Oklahoma",-1
+"Rogers","Oklahoma",96
+"Seminole","Oklahoma",77
+"Sequoyah","Oklahoma",147
+"Stephens","Oklahoma",80
+"Texas","Oklahoma",67
+"Tillman","Oklahoma",85
+"Tulsa","Oklahoma",316
+"Wagoner","Oklahoma",68
+"Washington","Oklahoma",117
+"Washita","Oklahoma",67
+"Woods","Oklahoma",151
+"Woodward","Oklahoma",102
+"Baker","Oregon",76
+"Benton","Oregon",84
+"Clackamas","Oregon",170
+"Clatsop","Oregon",178
+"Columbia","Oregon",121
+"Coos","Oregon",139
+"Crook","Oregon",118
+"Curry","Oregon",75
+"Deschutes","Oregon",76
+"Douglas","Oregon",98
+"Gilliam","Oregon",-1
+"Grant","Oregon",-1
+"Harney","Oregon",138
+"Hood River","Oregon",99
+"Jackson","Oregon",167
+"Jefferson","Oregon",129
+"Josephine","Oregon",103
+"Klamath","Oregon",61
+"Lake","Oregon",70
+"Lane","Oregon",137
+"Lincoln","Oregon",117
+"Linn","Oregon",105
+"Malheur","Oregon",155
+"Marion","Oregon",164
+"Morrow","Oregon",111
+"Multnomah","Oregon",481
+"Polk","Oregon",97
+"Sherman","Oregon",-1
+"Tillamook","Oregon",116
+"Umatilla","Oregon",106
+"Union","Oregon",68
+"Wallowa","Oregon",-1
+"Wasco","Oregon",120
+"Washington","Oregon",172
+"Wheeler","Oregon",0
+"Yamhill","Oregon",109
+"Adams","Pennsylvania",215
+"Allegheny","Pennsylvania",266
+"Armstrong","Pennsylvania",78
+"Beaver","Pennsylvania",89
+"Bedford","Pennsylvania",80
+"Berks","Pennsylvania",254
+"Blair","Pennsylvania",98
+"Bradford","Pennsylvania",75
+"Bucks","Pennsylvania",164
+"Butler","Pennsylvania",49
+"Cambria","Pennsylvania",100
+"Cameron","Pennsylvania",-1
+"Carbon","Pennsylvania",263
+"Centre","Pennsylvania",148
+"Chester","Pennsylvania",108
+"Clarion","Pennsylvania",206
+"Clearfield","Pennsylvania",97
+"Clinton","Pennsylvania",81
+"Columbia","Pennsylvania",176
+"Crawford","Pennsylvania",119
+"Cumberland","Pennsylvania",154
+"Dauphin","Pennsylvania",435
+"Delaware","Pennsylvania",297
+"Elk","Pennsylvania",60
+"Erie","Pennsylvania",135
+"Fayette","Pennsylvania",113
+"Forest","Pennsylvania",116
+"Franklin","Pennsylvania",125
+"Fulton","Pennsylvania",64
+"Greene","Pennsylvania",101
+"Huntingdon","Pennsylvania",174
+"Indiana","Pennsylvania",57
+"Jefferson","Pennsylvania",-1
+"Juniata","Pennsylvania",91
+"Lackawanna","Pennsylvania",237
+"Lancaster","Pennsylvania",174
+"Lawrence","Pennsylvania",94
+"Lebanon","Pennsylvania",174
+"Lehigh","Pennsylvania",392
+"Luzerne","Pennsylvania",171
+"Lycoming","Pennsylvania",188
+"McKean","Pennsylvania",64
+"Mercer","Pennsylvania",79
+"Mifflin","Pennsylvania",67
+"Monroe","Pennsylvania",234
+"Montgomery","Pennsylvania",114
+"Montour","Pennsylvania",117
+"Northampton","Pennsylvania",71
+"Northumberland","Pennsylvania",126
+"Perry","Pennsylvania",46
+"Philadelphia","Pennsylvania",1264
+"Pike","Pennsylvania",239
+"Potter","Pennsylvania",50
+"Schuylkill","Pennsylvania",136
+"Snyder","Pennsylvania",71
+"Somerset","Pennsylvania",84
+"Sullivan","Pennsylvania",-1
+"Susquehanna","Pennsylvania",81
+"Tioga","Pennsylvania",74
+"Union","Pennsylvania",254
+"Venango","Pennsylvania",78
+"Warren","Pennsylvania",43
+"Washington","Pennsylvania",59
+"Wayne","Pennsylvania",70
+"Westmoreland","Pennsylvania",42
+"Wyoming","Pennsylvania",58
+"York","Pennsylvania",222
+"Adjuntas","Puerto Rico",208
+"Aguada","Puerto Rico",129
+"Aguadilla","Puerto Rico",291
+"Aguas Buenas","Puerto Rico",329
+"Aibonito","Puerto Rico",261
+"Añasco","Puerto Rico",274
+"Arecibo","Puerto Rico",410
+"Arroyo","Puerto Rico",410
+"Barceloneta","Puerto Rico",321
+"Barranquitas","Puerto Rico",266
+"Bayamón","Puerto Rico",640
+"Cabo Rojo","Puerto Rico",213
+"Caguas","Puerto Rico",518
+"Camuy","Puerto Rico",154
+"Canóvanas","Puerto Rico",452
+"Carolina","Puerto Rico",563
+"Cataño","Puerto Rico",1259
+"Cayey","Puerto Rico",379
+"Ceiba","Puerto Rico",459
+"Ciales","Puerto Rico",370
+"Cidra","Puerto Rico",250
+"Coamo","Puerto Rico",229
+"Comerío","Puerto Rico",365
+"Corozal","Puerto Rico",304
+"Culebra","Puerto Rico",-1
+"Dorado","Puerto Rico",339
+"Fajardo","Puerto Rico",518
+"Florida","Puerto Rico",244
+"Guánica","Puerto Rico",327
+"Guayama","Puerto Rico",588
+"Guayanilla","Puerto Rico",277
+"Guaynabo","Puerto Rico",382
+"Gurabo","Puerto Rico",334
+"Hatillo","Puerto Rico",251
+"Hormigueros","Puerto Rico",232
+"Humacao","Puerto Rico",462
+"Isabela","Puerto Rico",172
+"Jayuya","Puerto Rico",133
+"Juana Díaz","Puerto Rico",407
+"Juncos","Puerto Rico",433
+"Lajas","Puerto Rico",202
+"Lares","Puerto Rico",139
+"Las Mar?­as","Puerto Rico",105
+"Las Piedras","Puerto Rico",272
+"Loíza","Puerto Rico",569
+"Luquillo","Puerto Rico",348
+"Manatí","Puerto Rico",360
+"Maricao","Puerto Rico",-1
+"Maunabo","Puerto Rico",384
+"Mayagüez","Puerto Rico",414
+"Moca","Puerto Rico",130
+"Morovis","Puerto Rico",266
+"Naguabo","Puerto Rico",367
+"Naranjito","Puerto Rico",284
+"Orocovis","Puerto Rico",209
+"Patillas","Puerto Rico",253
+"Peñuelas","Puerto Rico",264
+"Ponce","Puerto Rico",638
+"Quebradillas","Puerto Rico",262
+"Rincón","Puerto Rico",175
+"Rí­o Grande","Puerto Rico",307
+"Sabana Grande","Puerto Rico",190
+"Salinas","Puerto Rico",327
+"San Germán","Puerto Rico",178
+"San Juan","Puerto Rico",1212
+"San Lorenzo","Puerto Rico",277
+"San Sebastián","Puerto Rico",161
+"Santa Isabel","Puerto Rico",475
+"Toa Alta","Puerto Rico",285
+"Toa Baja","Puerto Rico",598
+"Trujillo Alto","Puerto Rico",426
+"Utuado","Puerto Rico",121
+"Vega Alta","Puerto Rico",515
+"Vega Baja","Puerto Rico",455
+"Vieques","Puerto Rico",456
+"Villalba","Puerto Rico",226
+"Yabucoa","Puerto Rico",358
+"Yauco","Puerto Rico",333
+"Bristol","Rhode Island",36
+"Kent","Rhode Island",44
+"Newport","Rhode Island",65
+"Providence","Rhode Island",125
+"Washington","Rhode Island",27
+"Abbeville","South Carolina",233
+"Aiken","South Carolina",339
+"Allendale","South Carolina",569
+"Anderson","South Carolina",213
+"Bamberg","South Carolina",773
+"Barnwell","South Carolina",691
+"Beaufort","South Carolina",227
+"Berkeley","South Carolina",296
+"Calhoun","South Carolina",333
+"Charleston","South Carolina",470
+"Cherokee","South Carolina",225
+"Chester","South Carolina",339
+"Chesterfield","South Carolina",254
+"Clarendon","South Carolina",596
+"Colleton","South Carolina",505
+"Darlington","South Carolina",504
+"Dillon","South Carolina",611
+"Dorchester","South Carolina",325
+"Edgefield","South Carolina",545
+"Fairfield","South Carolina",580
+"Florence","South Carolina",699
+"Georgetown","South Carolina",375
+"Greenville","South Carolina",360
+"Greenwood","South Carolina",435
+"Hampton","South Carolina",756
+"Horry","South Carolina",346
+"Jasper","South Carolina",368
+"Kershaw","South Carolina",369
+"Lancaster","South Carolina",276
+"Laurens","South Carolina",332
+"Lee","South Carolina",848
+"Lexington","South Carolina",326
+"Marion","South Carolina",690
+"Marlboro","South Carolina",437
+"McCormick","South Carolina",353
+"Newberry","South Carolina",369
+"Oconee","South Carolina",160
+"Orangeburg","South Carolina",682
+"Pickens","South Carolina",159
+"Richland","South Carolina",872
+"Saluda","South Carolina",295
+"Spartanburg","South Carolina",277
+"Sumter","South Carolina",730
+"Union","South Carolina",300
+"Williamsburg","South Carolina",824
+"York","South Carolina",247
+"Aurora","South Dakota",-1
+"Beadle","South Dakota",46
+"Bennett","South Dakota",-1
+"Bon Homme","South Dakota",132
+"Brookings","South Dakota",61
+"Brown","South Dakota",79
+"Brule","South Dakota",-1
+"Buffalo","South Dakota",-1
+"Butte","South Dakota",93
+"Campbell","South Dakota",-1
+"Charles Mix","South Dakota",-1
+"Clark","South Dakota",-1
+"Clay","South Dakota",76
+"Codington","South Dakota",46
+"Corson","South Dakota",0
+"Custer","South Dakota",-1
+"Davison","South Dakota",72
+"Day","South Dakota",-1
+"Deuel","South Dakota",-1
+"Dewey","South Dakota",294
+"Douglas","South Dakota",0
+"Edmunds","South Dakota",0
+"Fall River","South Dakota",-1
+"Faulk","South Dakota",-1
+"Grant","South Dakota",-1
+"Gregory","South Dakota",0
+"Haakon","South Dakota",-1
+"Hamlin","South Dakota",-1
+"Hand","South Dakota",0
+"Hanson","South Dakota",0
+"Harding","South Dakota",0
+"Hughes","South Dakota",103
+"Hutchinson","South Dakota",-1
+"Hyde","South Dakota",0
+"Jackson","South Dakota",240
+"Jerauld","South Dakota",0
+"Jones","South Dakota",0
+"Kingsbury","South Dakota",-1
+"Lake","South Dakota",-1
+"Lawrence","South Dakota",39
+"Lincoln","South Dakota",46
+"Lyman","South Dakota",0
+"Marshall","South Dakota",-1
+"McCook","South Dakota",-1
+"McPherson","South Dakota",-1
+"Meade","South Dakota",90
+"Mellette","South Dakota",0
+"Miner","South Dakota",-1
+"Minnehaha","South Dakota",187
+"Moody","South Dakota",-1
+"Oglala Lakota","South Dakota",201
+"Pennington","South Dakota",118
+"Perkins","South Dakota",-1
+"Potter","South Dakota",0
+"Roberts","South Dakota",-1
+"Sanborn","South Dakota",-1
+"Spink","South Dakota",-1
+"Stanley","South Dakota",0
+"Sully","South Dakota",0
+"Todd","South Dakota",-1
+"Tripp","South Dakota",-1
+"Turner","South Dakota",-1
+"Union","South Dakota",-1
+"Walworth","South Dakota",114
+"Yankton","South Dakota",96
+"Ziebach","South Dakota",-1
+"Anderson","Tennessee",134
+"Bedford","Tennessee",154
+"Benton","Tennessee",140
+"Bledsoe","Tennessee",211
+"Blount","Tennessee",109
+"Bradley","Tennessee",142
+"Campbell","Tennessee",86
+"Cannon","Tennessee",211
+"Carroll","Tennessee",121
+"Carter","Tennessee",85
+"Cheatham","Tennessee",209
+"Chester","Tennessee",94
+"Claiborne","Tennessee",54
+"Clay","Tennessee",-1
+"Cocke","Tennessee",147
+"Coffee","Tennessee",133
+"Crockett","Tennessee",103
+"Cumberland","Tennessee",98
+"Davidson","Tennessee",650
+"Decatur","Tennessee",143
+"DeKalb","Tennessee",196
+"Dickson","Tennessee",155
+"Dyer","Tennessee",121
+"Fayette","Tennessee",215
+"Fentress","Tennessee",62
+"Franklin","Tennessee",80
+"Gibson","Tennessee",212
+"Giles","Tennessee",142
+"Grainger","Tennessee",97
+"Greene","Tennessee",101
+"Grundy","Tennessee",147
+"Hamblen","Tennessee",126
+"Hamilton","Tennessee",356
+"Hancock","Tennessee",87
+"Hardeman","Tennessee",227
+"Hardin","Tennessee",130
+"Hawkins","Tennessee",98
+"Haywood","Tennessee",595
+"Henderson","Tennessee",115
+"Henry","Tennessee",123
+"Hickman","Tennessee",213
+"Houston","Tennessee",-1
+"Humphreys","Tennessee",98
+"Jackson","Tennessee",107
+"Jefferson","Tennessee",120
+"Johnson","Tennessee",205
+"Knox","Tennessee",252
+"Lake","Tennessee",668
+"Lauderdale","Tennessee",291
+"Lawrence","Tennessee",114
+"Lewis","Tennessee",64
+"Lincoln","Tennessee",130
+"Loudon","Tennessee",79
+"Macon","Tennessee",71
+"Madison","Tennessee",318
+"Marion","Tennessee",105
+"Marshall","Tennessee",147
+"Maury","Tennessee",208
+"McMinn","Tennessee",122
+"McNairy","Tennessee",104
+"Meigs","Tennessee",99
+"Monroe","Tennessee",105
+"Montgomery","Tennessee",219
+"Moore","Tennessee",-1
+"Morgan","Tennessee",141
+"Obion","Tennessee",120
+"Overton","Tennessee",87
+"Perry","Tennessee",183
+"Pickett","Tennessee",-1
+"Polk","Tennessee",130
+"Putnam","Tennessee",154
+"Rhea","Tennessee",160
+"Roane","Tennessee",108
+"Robertson","Tennessee",183
+"Rutherford","Tennessee",242
+"Scott","Tennessee",27
+"Sequatchie","Tennessee",184
+"Sevier","Tennessee",159
+"Shelby","Tennessee",864
+"Smith","Tennessee",106
+"Stewart","Tennessee",42
+"Sullivan","Tennessee",134
+"Sumner","Tennessee",133
+"Tipton","Tennessee",177
+"Trousdale","Tennessee",278
+"Unicoi","Tennessee",110
+"Union","Tennessee",88
+"Van Buren","Tennessee",93
+"Warren","Tennessee",129
+"Washington","Tennessee",211
+"Wayne","Tennessee",151
+"Weakley","Tennessee",80
+"White","Tennessee",124
+"Williamson","Tennessee",90
+"Wilson","Tennessee",165
+"Anderson","Texas",586
+"Andrews","Texas",112
+"Angelina","Texas",260
+"Aransas","Texas",169
+"Archer","Texas",-1
+"Armstrong","Texas",-1
+"Atascosa","Texas",181
+"Austin","Texas",232
+"Bailey","Texas",-1
+"Bandera","Texas",142
+"Bastrop","Texas",259
+"Baylor","Texas",-1
+"Bee","Texas",548
+"Bell","Texas",291
+"Bexar","Texas",415
+"Blanco","Texas",105
+"Borden","Texas",3230
+"Bosque","Texas",126
+"Bowie","Texas",340
+"Brazoria","Texas",303
+"Brazos","Texas",218
+"Brewster","Texas",121
+"Briscoe","Texas",0
+"Brooks","Texas",198
+"Brown","Texas",128
+"Burleson","Texas",144
+"Burnet","Texas",149
+"Caldwell","Texas",230
+"Calhoun","Texas",140
+"Callahan","Texas",92
+"Cameron","Texas",293
+"Camp","Texas",205
+"Carson","Texas",0
+"Cass","Texas",212
+"Castro","Texas",-1
+"Chambers","Texas",102
+"Cherokee","Texas",277
+"Childress","Texas",119
+"Clay","Texas",79
+"Cochran","Texas",-1
+"Coke","Texas",-1
+"Coleman","Texas",105
+"Collin","Texas",235
+"Collingsworth","Texas",0
+"Colorado","Texas",240
+"Comal","Texas",158
+"Comanche","Texas",120
+"Concho","Texas",709
+"Cooke","Texas",116
+"Coryell","Texas",350
+"Cottle","Texas",-1
+"Crane","Texas",-1
+"Crockett","Texas",-1
+"Crosby","Texas",334
+"Culberson","Texas",-1
+"Dallam","Texas",166
+"Dallas","Texas",926
+"Dawson","Texas",198
+"Deaf Smith","Texas",211
+"Delta","Texas",269
+"Denton","Texas",217
+"DeWitt","Texas",30
+"Dickens","Texas",-1
+"Dimmit","Texas",177
+"Donley","Texas",213
+"Duval","Texas",215
+"Eastland","Texas",86
+"Ector","Texas",241
+"Edwards","Texas",-1
+"El Paso","Texas",356
+"Ellis","Texas",240
+"Erath","Texas",68
+"Falls","Texas",280
+"Fannin","Texas",211
+"Fayette","Texas",150
+"Fisher","Texas",160
+"Floyd","Texas",136
+"Foard","Texas",-1
+"Fort Bend","Texas",264
+"Franklin","Texas",250
+"Freestone","Texas",462
+"Frio","Texas",960
+"Gaines","Texas",50
+"Galveston","Texas",384
+"Garza","Texas",1033
+"Gillespie","Texas",89
+"Glasscock","Texas",535
+"Goliad","Texas",147
+"Gonzales","Texas",169
+"Gray","Texas",92
+"Grayson","Texas",169
+"Gregg","Texas",499
+"Grimes","Texas",410
+"Guadalupe","Texas",135
+"Hale","Texas",159
+"Hall","Texas",-1
+"Hamilton","Texas",100
+"Hansford","Texas",-1
+"Hardeman","Texas",232
+"Hardin","Texas",119
+"Harris","Texas",724
+"Harrison","Texas",227
+"Hartley","Texas",-1
+"Haskell","Texas",548
+"Hays","Texas",198
+"Hemphill","Texas",261
+"Henderson","Texas",198
+"Hidalgo","Texas",241
+"Hill","Texas",160
+"Hockley","Texas",92
+"Hood","Texas",140
+"Hopkins","Texas",168
+"Houston","Texas",548
+"Howard","Texas",612
+"Hudspeth","Texas",324
+"Hunt","Texas",178
+"Hutchinson","Texas",112
+"Irion","Texas",-1
+"Jack","Texas",256
+"Jackson","Texas",89
+"Jasper","Texas",152
+"Jeff Davis","Texas",-1
+"Jefferson","Texas",597
+"Jim Hogg","Texas",157
+"Jim Wells","Texas",105
+"Johnson","Texas",201
+"Jones","Texas",246
+"Karnes","Texas",616
+"Kaufman","Texas",301
+"Kendall","Texas",154
+"Kenedy","Texas",-1
+"Kent","Texas",0
+"Kerr","Texas",132
+"Kimble","Texas",-1
+"King","Texas",0
+"Kinney","Texas",333
+"Kleberg","Texas",118
+"Knox","Texas",-1
+"La Salle","Texas",313
+"Lamar","Texas",183
+"Lamb","Texas",239
+"Lampasas","Texas",121
+"Lavaca","Texas",169
+"Lee","Texas",145
+"Leon","Texas",224
+"Liberty","Texas",312
+"Limestone","Texas",241
+"Lipscomb","Texas",0
+"Live Oak","Texas",144
+"Llano","Texas",168
+"Loving","Texas",-1
+"Lubbock","Texas",215
+"Lynn","Texas",109
+"Madison","Texas",422
+"Marion","Texas",331
+"Martin","Texas",-1
+"Mason","Texas",-1
+"Matagorda","Texas",285
+"Maverick","Texas",209
+"McCulloch","Texas",171
+"McLennan","Texas",238
+"McMullen","Texas",0
+"Medina","Texas",158
+"Menard","Texas",-1
+"Midland","Texas",174
+"Milam","Texas",212
+"Mills","Texas",0
+"Mitchell","Texas",66
+"Montague","Texas",81
+"Montgomery","Texas",195
+"Moore","Texas",122
+"Morris","Texas",208
+"Motley","Texas",-1
+"Nacogdoches","Texas",219
+"Navarro","Texas",219
+"Newton","Texas",122
+"Nolan","Texas",159
+"Nueces","Texas",224
+"Ochiltree","Texas",-1
+"Oldham","Texas",0
+"Orange","Texas",223
+"Palo Pinto","Texas",104
+"Panola","Texas",199
+"Parker","Texas",120
+"Parmer","Texas",76
+"Pecos","Texas",153
+"Polk","Texas",447
+"Potter","Texas",329
+"Presidio","Texas",143
+"Rains","Texas",130
+"Randall","Texas",130
+"Reagan","Texas",-1
+"Real","Texas",-1
+"Red River","Texas",182
+"Reeves","Texas",1000
+"Refugio","Texas",-1
+"Roberts","Texas",0
+"Robertson","Texas",170
+"Rockwall","Texas",168
+"Runnels","Texas",145
+"Rusk","Texas",422
+"Sabine","Texas",159
+"San Augustine","Texas",206
+"San Jacinto","Texas",181
+"San Patricio","Texas",125
+"San Saba","Texas",200
+"Schleicher","Texas",-1
+"Scurry","Texas",108
+"Shackelford","Texas",-1
+"Shelby","Texas",235
+"Sherman","Texas",-1
+"Smith","Texas",263
+"Somervell","Texas",74
+"Starr","Texas",83
+"Stephens","Texas",206
+"Sterling","Texas",0
+"Stonewall","Texas",-1
+"Sutton","Texas",-1
+"Swisher","Texas",120
+"Tarrant","Texas",367
+"Taylor","Texas",221
+"Terrell","Texas",-1
+"Terry","Texas",244
+"Throckmorton","Texas",-1
+"Titus","Texas",180
+"Tom Green","Texas",162
+"Travis","Texas",473
+"Trinity","Texas",310
+"Tyler","Texas",466
+"Upshur","Texas",155
+"Upton","Texas",0
+"Uvalde","Texas",151
+"Val Verde","Texas",125
+"Van Zandt","Texas",120
+"Victoria","Texas",186
+"Walker","Texas",994
+"Waller","Texas",161
+"Ward","Texas",159
+"Washington","Texas",190
+"Webb","Texas",260
+"Wharton","Texas",217
+"Wheeler","Texas",-1
+"Wichita","Texas",152
+"Wilbarger","Texas",-1
+"Willacy","Texas",748
+"Williamson","Texas",182
+"Wilson","Texas",112
+"Winkler","Texas",118
+"Wise","Texas",113
+"Wood","Texas",170
+"Yoakum","Texas",103
+"Young","Texas",67
+"Zapata","Texas",122
+"Zavala","Texas",158
+"Beaver","Utah",-1
+"Box Elder","Utah",53
+"Cache","Utah",53
+"Carbon","Utah",101
+"Daggett","Utah",0
+"Davis","Utah",80
+"Duchesne","Utah",53
+"Emery","Utah",-1
+"Garfield","Utah",-1
+"Grand","Utah",121
+"Iron","Utah",68
+"Juab","Utah",-1
+"Kane","Utah",75
+"Millard","Utah",107
+"Morgan","Utah",-1
+"Piute","Utah",0
+"Rich","Utah",-1
+"Salt Lake","Utah",231
+"San Juan","Utah",51
+"Sanpete","Utah",49
+"Sevier","Utah",34
+"Summit","Utah",96
+"Tooele","Utah",87
+"Uintah","Utah",60
+"Utah","Utah",52
+"Wasatch","Utah",31
+"Washington","Utah",89
+"Wayne","Utah",-1
+"Weber","Utah",98
+"Addison","Vermont",18
+"Bennington","Vermont",28
+"Caledonia","Vermont",41
+"Chittenden","Vermont",27
+"Essex","Vermont",0
+"Franklin","Vermont",14
+"Grand Isle","Vermont",-1
+"Lamoille","Vermont",-1
+"Orange","Vermont",-1
+"Orleans","Vermont",46
+"Rutland","Vermont",19
+"Washington","Vermont",27
+"Windham","Vermont",32
+"Windsor","Vermont",35
+"Accomack","Virginia",373
+"Albemarle","Virginia",210
+"Alexandria","Virginia",846
+"Alleghany","Virginia",107
+"Amelia","Virginia",158
+"Amherst","Virginia",167
+"Appomattox","Virginia",145
+"Arlington","Virginia",592
+"Augusta","Virginia",117
+"Bath","Virginia",-1
+"Bedford","Virginia",92
+"Bedford","Virginia",undefined
+"Bland","Virginia",144
+"Botetourt","Virginia",101
+"Bristol","Virginia",178
+"Brunswick","Virginia",416
+"Buchanan","Virginia",80
+"Buckingham","Virginia",378
+"Buena Vista","Virginia",125
+"Campbell","Virginia",172
+"Caroline","Virginia",259
+"Carroll","Virginia",71
+"Charles City","Virginia",303
+"Charlotte","Virginia",164
+"Charlottesville","Virginia",406
+"Chesapeake","Virginia",312
+"Chesterfield","Virginia",240
+"Clarke","Virginia",200
+"Colonial Heights","Virginia",270
+"Covington","Virginia",313
+"Craig","Virginia",116
+"Culpeper","Virginia",240
+"Cumberland","Virginia",263
+"Danville","Virginia",506
+"Dickenson","Virginia",42
+"Dinwiddie","Virginia",204
+"Emporia","Virginia",473
+"Essex","Virginia",226
+"Fairfax","Virginia",283
+"Fairfax","Virginia",411
+"Falls Church","Virginia",348
+"Fauquier","Virginia",155
+"Floyd","Virginia",148
+"Fluvanna","Virginia",183
+"Franklin","Virginia",127
+"Franklin","Virginia",377
+"Frederick","Virginia",143
+"Fredericksburg","Virginia",448
+"Galax","Virginia",146
+"Giles","Virginia",84
+"Gloucester","Virginia",158
+"Goochland","Virginia",243
+"Grayson","Virginia",132
+"Greene","Virginia",131
+"Greensville","Virginia",588
+"Halifax","Virginia",270
+"Hampton","Virginia",561
+"Hanover","Virginia",132
+"Harrisonburg","Virginia",180
+"Henrico","Virginia",363
+"Henry","Virginia",149
+"Highland","Virginia",0
+"Hopewell","Virginia",473
+"Isle of Wight","Virginia",236
+"James City","Virginia",67
+"King and Queen","Virginia",189
+"King George","Virginia",206
+"King William","Virginia",92
+"Lancaster","Virginia",338
+"Lee","Virginia",104
+"Lexington","Virginia",-1
+"Loudoun","Virginia",129
+"Louisa","Virginia",141
+"Lunenburg","Virginia",330
+"Lynchburg","Virginia",363
+"Madison","Virginia",83
+"Manassas","Virginia",301
+"Manassas Park","Virginia",232
+"Martinsville","Virginia",364
+"Mathews","Virginia",210
+"Mecklenburg","Virginia",270
+"Middlesex","Virginia",178
+"Montgomery","Virginia",81
+"Nelson","Virginia",207
+"New Kent","Virginia",150
+"Newport News","Virginia",597
+"Norfolk","Virginia",957
+"Northampton","Virginia",380
+"Northumberland","Virginia",194
+"Norton","Virginia",-1
+"Nottoway","Virginia",607
+"Orange","Virginia",183
+"Page","Virginia",68
+"Patrick","Virginia",77
+"Petersburg","Virginia",1165
+"Pittsylvania","Virginia",177
+"Poquoson","Virginia",94
+"Portsmouth","Virginia",797
+"Powhatan","Virginia",228
+"Prince Edward","Virginia",222
+"Prince George","Virginia",407
+"Prince William","Virginia",289
+"Pulaski","Virginia",78
+"Radford","Virginia",93
+"Rappahannock","Virginia",198
+"Richmond","Virginia",390
+"Richmond","Virginia",883
+"Roanoke","Virginia",121
+"Roanoke","Virginia",507
+"Rockbridge","Virginia",95
+"Rockingham","Virginia",105
+"Russell","Virginia",41
+"Salem","Virginia",186
+"Scott","Virginia",58
+"Shenandoah","Virginia",87
+"Smyth","Virginia",148
+"Southampton","Virginia",261
+"Spotsylvania","Virginia",198
+"Stafford","Virginia",188
+"Staunton","Virginia",276
+"Suffolk","Virginia",346
+"Surry","Virginia",243
+"Sussex","Virginia",572
+"Tazewell","Virginia",67
+"Virginia Beach","Virginia",308
+"Warren","Virginia",177
+"Washington","Virginia",89
+"Waynesboro","Virginia",282
+"Westmoreland","Virginia",191
+"Williamsburg","Virginia",231
+"Winchester","Virginia",287
+"Wise","Virginia",127
+"Wythe","Virginia",119
+"York","Virginia",126
+"Adams","Washington",85
+"Asotin","Washington",89
+"Benton","Washington",112
+"Chelan","Washington",112
+"Clallam","Washington",117
+"Clark","Washington",196
+"Columbia","Washington",-1
+"Cowlitz","Washington",165
+"Douglas","Washington",67
+"Ferry","Washington",-1
+"Franklin","Washington",136
+"Garfield","Washington",0
+"Grant","Washington",78
+"Grays Harbor","Washington",167
+"Island","Washington",138
+"Jefferson","Washington",133
+"King","Washington",372
+"Kitsap","Washington",153
+"Kittitas","Washington",82
+"Klickitat","Washington",119
+"Lewis","Washington",101
+"Lincoln","Washington",126
+"Mason","Washington",161
+"Okanogan","Washington",90
+"Pacific","Washington",182
+"Pend Oreille","Washington",75
+"Pierce","Washington",216
+"San Juan","Washington",129
+"Skagit","Washington",100
+"Skamania","Washington",56
+"Snohomish","Washington",177
+"Spokane","Washington",166
+"Stevens","Washington",57
+"Thurston","Washington",139
+"Wahkiakum","Washington",-1
+"Walla Walla","Washington",118
+"Whatcom","Washington",126
+"Whitman","Washington",70
+"Yakima","Washington",133
+"District of Columbia","Washington, D.C.",2382
+"Barbour","West Virginia",83
+"Berkeley","West Virginia",181
+"Boone","West Virginia",87
+"Braxton","West Virginia",75
+"Brooke","West Virginia",92
+"Cabell","West Virginia",351
+"Calhoun","West Virginia",93
+"Clay","West Virginia",-1
+"Doddridge","West Virginia",143
+"Fayette","West Virginia",105
+"Gilmer","West Virginia",288
+"Grant","West Virginia",85
+"Greenbrier","West Virginia",121
+"Hampshire","West Virginia",98
+"Hancock","West Virginia",40
+"Hardy","West Virginia",123
+"Harrison","West Virginia",103
+"Jackson","West Virginia",42
+"Jefferson","West Virginia",124
+"Kanawha","West Virginia",298
+"Lewis","West Virginia",35
+"Lincoln","West Virginia",100
+"Logan","West Virginia",73
+"Marion","West Virginia",77
+"Marshall","West Virginia",99
+"Mason","West Virginia",79
+"McDowell","West Virginia",89
+"Mercer","West Virginia",108
+"Mineral","West Virginia",74
+"Mingo","West Virginia",77
+"Monongalia","West Virginia",120
+"Monroe","West Virginia",272
+"Morgan","West Virginia",92
+"Nicholas","West Virginia",48
+"Ohio","West Virginia",141
+"Pendleton","West Virginia",94
+"Pleasants","West Virginia",198
+"Pocahontas","West Virginia",102
+"Preston","West Virginia",104
+"Putnam","West Virginia",68
+"Raleigh","West Virginia",189
+"Randolph","West Virginia",104
+"Ritchie","West Virginia",111
+"Roane","West Virginia",42
+"Summers","West Virginia",141
+"Taylor","West Virginia",56
+"Tucker","West Virginia",-1
+"Tyler","West Virginia",-1
+"Upshur","West Virginia",34
+"Wayne","West Virginia",60
+"Webster","West Virginia",84
+"Wetzel","West Virginia",83
+"Wirt","West Virginia",-1
+"Wood","West Virginia",97
+"Wyoming","West Virginia",77
+"Adams","Wisconsin",111
+"Ashland","Wisconsin",59
+"Barron","Wisconsin",70
+"Bayfield","Wisconsin",42
+"Brown","Wisconsin",110
+"Buffalo","Wisconsin",-1
+"Burnett","Wisconsin",47
+"Calumet","Wisconsin",43
+"Chippewa","Wisconsin",54
+"Clark","Wisconsin",55
+"Columbia","Wisconsin",94
+"Crawford","Wisconsin",50
+"Dane","Wisconsin",167
+"Dodge","Wisconsin",90
+"Door","Wisconsin",107
+"Douglas","Wisconsin",65
+"Dunn","Wisconsin",48
+"Eau Claire","Wisconsin",55
+"Florence","Wisconsin",0
+"Fond du Lac","Wisconsin",77
+"Forest","Wisconsin",63
+"Grant","Wisconsin",45
+"Green","Wisconsin",25
+"Green Lake","Wisconsin",67
+"Iowa","Wisconsin",79
+"Iron","Wisconsin",-1
+"Jackson","Wisconsin",45
+"Jefferson","Wisconsin",61
+"Juneau","Wisconsin",91
+"Kenosha","Wisconsin",148
+"Kewaunee","Wisconsin",74
+"La Crosse","Wisconsin",96
+"Lafayette","Wisconsin",36
+"Langlade","Wisconsin",30
+"Lincoln","Wisconsin",56
+"Manitowoc","Wisconsin",51
+"Marathon","Wisconsin",62
+"Marinette","Wisconsin",63
+"Marquette","Wisconsin",95
+"Menominee","Wisconsin",278
+"Milwaukee","Wisconsin",411
+"Monroe","Wisconsin",71
+"Oconto","Wisconsin",18
+"Oneida","Wisconsin",42
+"Outagamie","Wisconsin",76
+"Ozaukee","Wisconsin",38
+"Pepin","Wisconsin",-1
+"Pierce","Wisconsin",46
+"Polk","Wisconsin",48
+"Portage","Wisconsin",64
+"Price","Wisconsin",-1
+"Racine","Wisconsin",164
+"Richland","Wisconsin",34
+"Rock","Wisconsin",115
+"Rusk","Wisconsin",-1
+"Sauk","Wisconsin",72
+"Sawyer","Wisconsin",63
+"Shawano","Wisconsin",57
+"Sheboygan","Wisconsin",68
+"St. Croix","Wisconsin",44
+"Taylor","Wisconsin",42
+"Trempealeau","Wisconsin",56
+"Vernon","Wisconsin",63
+"Vilas","Wisconsin",-1
+"Walworth","Wisconsin",55
+"Washburn","Wisconsin",82
+"Washington","Wisconsin",47
+"Waukesha","Wisconsin",50
+"Waupaca","Wisconsin",34
+"Waushara","Wisconsin",88
+"Winnebago","Wisconsin",94
+"Wood","Wisconsin",70
+"Albany","Wyoming",42
+"Big Horn","Wyoming",51
+"Campbell","Wyoming",64
+"Carbon","Wyoming",41
+"Converse","Wyoming",53
+"Crook","Wyoming",-1
+"Fremont","Wyoming",56
+"Goshen","Wyoming",92
+"Hot Springs","Wyoming",-1
+"Johnson","Wyoming",-1
+"Laramie","Wyoming",100
+"Lincoln","Wyoming",-1
+"Natrona","Wyoming",51
+"Niobrara","Wyoming",-1
+"Park","Wyoming",19
+"Platte","Wyoming",-1
+"Sheridan","Wyoming",59
+"Sublette","Wyoming",-1
+"Sweetwater","Wyoming",55
+"Teton","Wyoming",58
+"Uinta","Wyoming",-1
+"Washakie","Wyoming",-1
+"Weston","Wyoming",-1
