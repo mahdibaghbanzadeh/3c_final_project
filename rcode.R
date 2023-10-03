@@ -197,13 +197,17 @@ library(caret)
 set.seed(1234)
 train = df_clean[, c("education", "gini", 
                      'med_income', "poverty", "hiv_rate")]
+train$cl = as.factor(ifelse(train$hiv_rate > median(train$hiv_rate),
+                            'High', 'Low')
+                     )
 rf_train <- train(x = train[, c("education", "gini", 
                                 'med_income', "poverty")],
-                  y = train$hiv_rate,
+                  y = train$cl,
                   method = "rf", ntree = 500,
-                  tuneGrid = data.frame(mtry = c(4, 2)),
-                  trControl = trainControl(method = "cv", repeats = 10))
+                  tuneGrid = data.frame(mtry = c(4,2)),
+                  trControl = trainControl(method = "cv", number = 10))
 
+rf_train$results
 # Get the best tune from the random forest
 bt = rf_train$bestTune
 rf_train$results
@@ -222,13 +226,13 @@ plot_imp <- ggplot(rf_imp %>% arrange(Importance),
   coord_flip()+
   theme_classic()+
   theme(axis.title.y = element_blank(),
-        axis.text.x = element_text(size = 10),
-        axis.text.y = element_text(size=10),
-        axis.title.x = element_text(face="bold", size = 12),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size=12),
+        axis.title.x = element_text(face="bold", size = 14),
         legend.text = element_text(size = 10),
-        legend.title = element_text(size = 10),
+        legend.title = element_text(size = 16),
         legend.position = c(0.75, 0.27),
         legend.key.size = unit(.3, 'cm'))
 
-ggsave(filename = 'results/plot_imp.png', 
-       plot=plot_imp, width = 7.2, height = 6,dpi = 300)
+ggsave(filename = 'results/plot_imp_cl.png', 
+       plot=plot_imp, width = 7.2, height = 3,dpi = 300)
