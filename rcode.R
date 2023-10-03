@@ -1,11 +1,13 @@
 library(tidyverse)
 library(cowplot)
+library(urbnmapr)
+
 
 #source of information:
 # https://aidsvu.org/data-methods/data-methods-city-level/
 # https://map.aidsvu.org/map
 # https://data.census.gov/
-
+dir.create('results', showWarnings = FALSE)
 edu = read.csv('raw_data/edu_ACSST5Y2021.S1501-Data.csv')
 edu = edu[-1,c("GEO_ID", "NAME", "S1501_C02_014E")]
 colnames(edu)[3] = 'education'
@@ -91,12 +93,16 @@ for(i in 1:15){
   wss = c(wss, km$tot.withinss)
 }
 
+
+png(filename = 'results/elbow.png')
 plot(1:15, wss, 'b')
+dev.off()
 
 set.seed(123)
 km = kmeans(kmdat, 5, iter.max = 500, nstart = 20)
 df_clean$cluster = km$cluster
 
+k = 5
 report = df_clean %>% 
   group_by(cluster) %>% 
   summarise(education = median(education),
@@ -106,15 +112,16 @@ report = df_clean %>%
             hiv_rate = median(hiv_rate),
             freq = n()) %>% 
   arrange(hiv_rate) %>% 
-  mutate(new_cluster = 1:5)
+  mutate(new_cluster = 1:k)
 
+write.csv(report,
+          'results/report.csv')
 # Create a mapping from old cluster values to new values
 cluster_mapping <- setNames(report$new_cluster, report$cluster)
 df_clean$cluster <- cluster_mapping[as.character(df_clean$cluster)]
 
 df_clean$county_long = unlist(strsplit(df_clean$NAME, ', '))[c(T,F)]
 
-library(urbnmapr)
 #grab county shape files for our map
 counties <- get_urbn_map("counties", sf = TRUE)
 
@@ -177,7 +184,51 @@ final_map <- ggdraw() +
     hjust = 0
   )
 #save files to folder
-ggsave(filename = 'final_map.pdf', 
+ggsave(filename = 'results/final_map.pdf', 
        plot=final_map, width = 7.2, height = 6, dpi = 300)
-ggsave(filename = 'final_map.png', 
+ggsave(filename = 'results/final_map.png', 
        plot=final_map, width = 7.2, height = 6,dpi = 300)
+
+
+### ML
+library(caret)
+
+### random Forest
+set.seed(1234)
+train = df_clean[, c("education", "gini", 
+                     'med_income', "poverty", "hiv_rate")]
+rf_train <- train(x = train[, c("education", "gini", 
+                                'med_income', "poverty")],
+                  y = train$hiv_rate,
+                  method = "rf", ntree = 500,
+                  tuneGrid = data.frame(mtry = c(4, 2)),
+                  trControl = trainControl(method = "cv", repeats = 10))
+
+# Get the best tune from the random forest
+bt = rf_train$bestTune
+rf_train$results
+
+  
+  
+rf_imp <- varImp(rf_train$finalModel) %>% rownames_to_column(var = 'var')
+rf_imp$Overall <- rf_imp$Overall*100/sum(rf_imp$Overall)
+colnames(rf_imp)[2] <- 'Importance'
+
+plot_imp <- ggplot(rf_imp %>% arrange(Importance), 
+                   aes(x = reorder(var, Importance), y = Importance))+
+  geom_bar(fill = "#033C5A", stat = 'identity', position=position_dodge())+
+  ylab('Relative Importance')+
+  ggtitle('Feature importance')+
+  coord_flip()+
+  theme_classic()+
+  theme(axis.title.y = element_blank(),
+        axis.text.x = element_text(size = 10),
+        axis.text.y = element_text(size=10),
+        axis.title.x = element_text(face="bold", size = 12),
+        legend.text = element_text(size = 10),
+        legend.title = element_text(size = 10),
+        legend.position = c(0.75, 0.27),
+        legend.key.size = unit(.3, 'cm'))
+
+ggsave(filename = 'results/plot_imp.png', 
+       plot=plot_imp, width = 7.2, height = 6,dpi = 300)
