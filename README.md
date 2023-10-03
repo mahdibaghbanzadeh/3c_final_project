@@ -1,9 +1,10 @@
-# 3c_final_project
+
 
 # Project Overview
 
 This project aims to perform a socioeconomic analysis and explore its relationship with HIV prevalence in counties across the United States. The analysis utilizes various datasets to gain insights into the socioeconomic factors affecting HIV prevalence.
 
+![alt text](https://github.com/mahdibaghbanzadeh/3c_final_project/blob/main/results/final_map.png)
 ## Data Sources
 
 The following data sources were used for this project:
