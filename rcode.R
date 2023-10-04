@@ -122,6 +122,9 @@ df_clean$cluster <- cluster_mapping[as.character(df_clean$cluster)]
 
 df_clean$county_long = unlist(strsplit(df_clean$NAME, ', '))[c(T,F)]
 
+write.csv(df_clean,
+          'results/df_with_clusters.csv')
+
 #grab county shape files for our map
 counties <- get_urbn_map("counties", sf = TRUE)
 
